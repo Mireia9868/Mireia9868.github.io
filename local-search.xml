@@ -109,6 +109,43 @@
   
   
   <entry>
+    <title>Wordpress &amp; Bing UET Tag部署</title>
+    <link href="/2023/01/19/Wordpress%20Bing%E5%B9%BF%E5%91%8A%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2%20210633fae3c5492ba59b0244a6fdd8d8/"/>
+    <url>/2023/01/19/Wordpress%20Bing%E5%B9%BF%E5%91%8A%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2%20210633fae3c5492ba59b0244a6fdd8d8/</url>
+    
+    <content type="html"><![CDATA[<h1>Wordpress &amp; Bing UET Tag部署</h1><h2 id="基础代码">基础代码</h2><ol><li><p>Bing广告账户内创建UET tag，复制Tag ID。</p><p><img src="/2023/01/19/Wordpress%20Bing%E5%B9%BF%E5%91%8A%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2%20210633fae3c5492ba59b0244a6fdd8d8/Untitled.png" alt="Untitled"></p></li><li><p>Wordpress后台plugins中搜索<strong>Microsoft Advertising Universal Event Tracking (UET)</strong> <a href="https://wordpress.org/plugins/microsoft-advertising-universal-event-tracking-uet/">https://wordpress.org/plugins/microsoft-advertising-universal-event-tracking-uet/</a></p><p><img src="/2023/01/19/Wordpress%20Bing%E5%B9%BF%E5%91%8A%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2%20210633fae3c5492ba59b0244a6fdd8d8/Untitled%201.png" alt="Untitled"></p></li><li><p>点击plugin下installed Settings</p><p><img src="/2023/01/19/Wordpress%20Bing%E5%B9%BF%E5%91%8A%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2%20210633fae3c5492ba59b0244a6fdd8d8/Untitled%202.png" alt="Untitled"></p></li><li><p>直接跳转至wordpress-Settings位置</p><p><img src="/2023/01/19/Wordpress%20Bing%E5%B9%BF%E5%91%8A%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2%20210633fae3c5492ba59b0244a6fdd8d8/Untitled%203.png" alt="Untitled"></p></li><li><p>粘贴UET Tag ID，保存设置</p><p><img src="/2023/01/19/Wordpress%20Bing%E5%B9%BF%E5%91%8A%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2%20210633fae3c5492ba59b0244a6fdd8d8/Untitled%204.png" alt="Untitled"></p></li></ol><h2 id="统计金额代码-赋值代码">统计金额代码+赋值代码</h2><ol><li>安装Plugin：<strong>WooCommerce Conversion Tracking</strong></li></ol><p>插件地址：<a href="https://wordpress.org/plugins/woocommerce-conversion-tracking/">https://wordpress.org/plugins/woocommerce-conversion-tracking/</a></p><p><img src="/2023/01/19/Wordpress%20Bing%E5%B9%BF%E5%91%8A%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2%20210633fae3c5492ba59b0244a6fdd8d8/Untitled%205.png" alt="Untitled"></p><ol><li>点击插件<strong>WooCommerce&gt;&gt;Conversion Tracking</strong></li></ol><p>在Integration Settings处打开<strong>Custom的功能开关</strong>。</p><p><img src="/2023/01/19/Wordpress%20Bing%E5%B9%BF%E5%91%8A%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2%20210633fae3c5492ba59b0244a6fdd8d8/Untitled%206.png" alt="Untitled"></p><ol><li>在Successful Order框内添加以下代码，最后下拉至页面底部，save changes <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="language-javascript"></span><br><span class="language-javascript"></span><br><span class="language-javascript"><span class="hljs-variable language_">window</span>.<span class="hljs-property">uetq</span> = <span class="hljs-variable language_">window</span>.<span class="hljs-property">uetq</span> || [];</span><br><span class="language-javascript"></span><br><span class="language-javascript"><span class="hljs-variable language_">window</span>.<span class="hljs-property">uetq</span>.<span class="hljs-title function_">push</span>(<span class="hljs-string">&#x27;event&#x27;</span>, <span class="hljs-string">&#x27;&#x27;</span>, &#123;<span class="hljs-string">&#x27;revenue_value&#x27;</span>:&#123;order_total&#125;,<span class="hljs-string">&#x27;currency&#x27;</span>:<span class="hljs-string">&#x27;&#123;currency&#125;&#x27;</span>&#125;);</span><br><span class="language-javascript"></span><br><span class="language-javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span><br></code></pre></td></tr></table></figure></li></ol><p><img src="/2023/01/19/Wordpress%20Bing%E5%B9%BF%E5%91%8A%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2%20210633fae3c5492ba59b0244a6fdd8d8/Untitled%207.png" alt="Untitled"></p><h1><strong>代码检查</strong></h1><h3 id="安装插件：UET-Tag-Helper"><strong>安装插件：UET Tag Helper</strong></h3><p>打开待检测网站，打开插件</p><p><strong>基础代码成功安装截图：</strong></p><p><img src="/2023/01/19/Wordpress%20Bing%E5%B9%BF%E5%91%8A%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2%20210633fae3c5492ba59b0244a6fdd8d8/Untitled%208.png" alt="Untitled"></p><p><strong>统计金额代码成功安装截图：</strong></p><p><img src="/2023/01/19/Wordpress%20Bing%E5%B9%BF%E5%91%8A%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2%20210633fae3c5492ba59b0244a6fdd8d8/Untitled%209.png" alt="Untitled"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>UET tag</category>
+      
+      <category>Bing ads</category>
+      
+      <category>Bing UET Tag 对接</category>
+      
+      <category>Wordpress</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Bing ads</tag>
+      
+      <tag>UET tag</tag>
+      
+      <tag>Event tracking</tag>
+      
+      <tag>Wordpress</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>账户结构</title>
     <link href="/2022/10/13/%E8%B4%A6%E6%88%B7%E7%BB%93%E6%9E%84%20779ee4f595e24ffb9e19d7cf2d0655c1/"/>
     <url>/2022/10/13/%E8%B4%A6%E6%88%B7%E7%BB%93%E6%9E%84%20779ee4f595e24ffb9e19d7cf2d0655c1/</url>
