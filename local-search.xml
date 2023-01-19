@@ -13,11 +13,13 @@
     
     <categories>
       
-      <category>Bing UET Tag 对接</category>
-      
       <category>UET tag</category>
       
       <category>Shopline</category>
+      
+      <category>Bing ads</category>
+      
+      <category>Bing UET Tag 对接</category>
       
     </categories>
     
@@ -31,6 +33,74 @@
       <tag>UET tag</tag>
       
       <tag>Event tracking</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Bing professional Service Ads-房地产广告申请流程及报错处理</title>
+    <link href="/2023/01/19/Bing%20professional%20Service%20Ads-%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%B9%BF%E5%91%8A%E7%94%B3%E8%AF%B7%E6%B5%81%E7%A8%8B%20370df6910d9f44aaa930a75e89565ed0/"/>
+    <url>/2023/01/19/Bing%20professional%20Service%20Ads-%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%B9%BF%E5%91%8A%E7%94%B3%E8%AF%B7%E6%B5%81%E7%A8%8B%20370df6910d9f44aaa930a75e89565ed0/</url>
+    
+    <content type="html"><![CDATA[<h1>Bing professional Service Ads-房地产广告申请流程</h1><ol><li><p><strong>提交测试账户</strong></p><ol><li>整理公司背景及计划测试的国家，预算和账户信息为表格，发送到与微软沟通的同学</li><li>申请通过后，进入账户中tools-business data-dyanamic data feed tab页</li><li>会发现upload下拉菜单中会多出professional services选项</li></ol><p>申请通过前后：</p><p><img src="/2023/01/19/Bing%20professional%20Service%20Ads-%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%B9%BF%E5%91%8A%E7%94%B3%E8%AF%B7%E6%B5%81%E7%A8%8B%20370df6910d9f44aaa930a75e89565ed0/Untitled.png" alt="Untitled"></p><p><img src="/2023/01/19/Bing%20professional%20Service%20Ads-%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%B9%BF%E5%91%8A%E7%94%B3%E8%AF%B7%E6%B5%81%E7%A8%8B%20370df6910d9f44aaa930a75e89565ed0/Untitled%201.png" alt="Untitled"></p><p>d. 点击该选项既可开始上传</p></li><li><p><strong>创建广告</strong></p><ol><li>创建加大型文字广告</li></ol><p><img src="/2023/01/19/Bing%20professional%20Service%20Ads-%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%B9%BF%E5%91%8A%E7%94%B3%E8%AF%B7%E6%B5%81%E7%A8%8B%20370df6910d9f44aaa930a75e89565ed0/%25E5%25BE%25AE%25E4%25BF%25A1%25E6%2588%25AA%25E5%259B%25BE_20230119215438.png" alt="微信截图_20230119215438.png"></p><p>b.填写campaign信息</p><ol><li><p>当前广告类型仅能在US, CA, UK, DE, FR, AU, IN 6国展示</p></li><li><p>仅在Laptop端展示</p></li><li><p>如果广告有信息免责声明需要填写，注意勾选declaim，此处是该campaign唯一填写机会</p><p><img src="/2023/01/19/Bing%20professional%20Service%20Ads-%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%B9%BF%E5%91%8A%E7%94%B3%E8%AF%B7%E6%B5%81%E7%A8%8B%20370df6910d9f44aaa930a75e89565ed0/Untitled%202.png" alt="Untitled"></p></li><li><p>广告展示内容都是<strong>基于feed</strong>，<strong>广告语和keyword仅为占位作用</strong>，填写keyword内容越长，越不容易被搜索展示越好</p></li></ol></li><li><p><strong>准备Feed</strong></p><ol><li>feed模板：</li></ol><p><a href="Bing%20professional%20Service%20Ads-%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%B9%BF%E5%91%8A%E7%94%B3%E8%AF%B7%E6%B5%81%E7%A8%8B%20370df6910d9f44aaa930a75e89565ed0/test2.xlsx">test2.xlsx</a></p><p>b. feed填写规则：</p><p>标绿项为必填项，标蓝项为推荐项，无颜色填充为可选项</p><p><a href="Bing%20professional%20Service%20Ads-%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%B9%BF%E5%91%8A%E7%94%B3%E8%AF%B7%E6%B5%81%E7%A8%8B%20370df6910d9f44aaa930a75e89565ed0/ProfessionalAds-feed%25E5%25A1%25AB%25E5%2586%2599%25E8%25A7%2584%25E5%2588%2599l.xlsx">ProfessionalAds-feed填写规则l.xlsx</a></p><p>c. 上传时，优先选择upload and preview，可以预览到feed中的问题及变更内容，预览无误后再进行upload and upload</p><p><img src="/2023/01/19/Bing%20professional%20Service%20Ads-%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%B9%BF%E5%91%8A%E7%94%B3%E8%AF%B7%E6%B5%81%E7%A8%8B%20370df6910d9f44aaa930a75e89565ed0/Untitled%203.png" alt="Untitled"></p><p>c. 常见提交后报错处理：</p><p>#报错内容：Image Urls:The string value is too long, please shorten to contain 80 characters or less.<br>解决：采用其他图库生成图片链接，确保图片URL低于80字符</p><p>#报错内容：In Business Since:Invalid Int64 Feed Item Attribute Value<br>解决：该列只需填写年份，无需填写月份和日期</p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>Bing ads</category>
+      
+      <category>特殊广告类型申请</category>
+      
+      <category>professional Service Ads</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Bing ads</tag>
+      
+      <tag>professional Service Ads</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Shoplazza（店匠） &amp; Bing UET Tag部署</title>
+    <link href="/2023/01/19/Shoplazza%EF%BC%88%E5%BA%97%E5%8C%A0%EF%BC%89%20&amp;%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20bbb0f4846b5648fb8f6be83cf0e21c62/"/>
+    <url>/2023/01/19/Shoplazza%EF%BC%88%E5%BA%97%E5%8C%A0%EF%BC%89%20&amp;%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20bbb0f4846b5648fb8f6be83cf0e21c62/</url>
+    
+    <content type="html"><![CDATA[<h1>Shoplazza（店匠） &amp; Bing UET Tag部署</h1><p><strong>Mireia</strong></p><h1>基础代码</h1><ol><li><strong>bing后台复制基础代码</strong></li></ol><p><img src="/2023/01/19/Shoplazza%EF%BC%88%E5%BA%97%E5%8C%A0%EF%BC%89%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20bbb0f4846b5648fb8f6be83cf0e21c62/Untitled.png" alt="Untitled"></p><ol><li><strong>进入Apps选择自定义代码嵌入-新建代码</strong></li></ol><p><img src="/2023/01/19/Shoplazza%EF%BC%88%E5%BA%97%E5%8C%A0%EF%BC%89%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20bbb0f4846b5648fb8f6be83cf0e21c62/Untitled%201.png" alt="Untitled"></p><ol><li><strong>粘贴代码到插入代码位置，具体设置如下</strong></li></ol><p><img src="/2023/01/19/Shoplazza%EF%BC%88%E5%BA%97%E5%8C%A0%EF%BC%89%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20bbb0f4846b5648fb8f6be83cf0e21c62/Untitled%202.png" alt="Untitled"></p><h1></h1><h1><strong>统计金额代码</strong></h1><h3 id="Purchase-Tag"><strong>Purchase Tag</strong></h3><ol><li><strong>进入店铺设置-交易设置-附加代码</strong></li></ol><p><img src="/2023/01/19/Shoplazza%EF%BC%88%E5%BA%97%E5%8C%A0%EF%BC%89%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20bbb0f4846b5648fb8f6be83cf0e21c62/Untitled%203.png" alt="Untitled"></p><ol><li><strong>粘贴下方代码到附加脚本位置即可</strong></li></ol><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs django"><span class="hljs-template-tag">&#123;% <span class="hljs-name"><span class="hljs-name">if</span></span> first_time_accessed %&#125;</span><span class="language-xml"></span><br><span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="language-javascript"> <span class="hljs-keyword">try</span> &#123; <span class="hljs-variable language_">window</span>.<span class="hljs-property">uetq</span> = <span class="hljs-variable language_">window</span>.<span class="hljs-property">uetq</span> || [];<span class="hljs-variable language_">window</span>.<span class="hljs-property">uetq</span>.<span class="hljs-title function_">push</span>(<span class="hljs-string">&#x27;event&#x27;</span>, <span class="hljs-string">&#x27;purchase&#x27;</span>, &#123;<span class="hljs-string">&quot;revenue_value&quot;</span>:</span></span><span class="hljs-template-variable">&#123;&#123; checkout.total_price | money_without_currency &#125;&#125;</span><span class="language-xml"><span class="language-javascript">,<span class="hljs-string">&quot;currency&quot;</span>:<span class="hljs-string">&quot;</span></span></span><span class="hljs-template-variable">&#123;&#123; checkout.currency &#125;&#125;</span><span class="language-xml">&quot;&#125;); &#125; catch(e)&#123; &#125;<span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></span><br><span class="language-xml"></span><span class="hljs-template-tag">&#123;% <span class="hljs-name"><span class="hljs-name">endif</span></span> %&#125;</span><br></code></pre></td></tr></table></figure><p><strong>测试时注意：</strong></p>只在第一次加载付费页面时生效，用于避免客户刷新页面后重复记录转化<p>测试时，<strong>如果重复加载已经支付成功的订单将无法验证代码是否生效</strong>。可以将该段代码删除，便于测试。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>UET tag</category>
+      
+      <category>Bing ads</category>
+      
+      <category>Bing UET Tag 对接</category>
+      
+      <category>Shoplazza</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Bing ads</tag>
+      
+      <tag>UET tag</tag>
+      
+      <tag>Event tracking</tag>
+      
+      <tag>Shoplazza</tag>
       
     </tags>
     
