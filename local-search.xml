@@ -4,6 +4,45 @@
   
   
   <entry>
+    <title>GTM(Google Tag Manager) &amp; Bing UET Tag部署</title>
+    <link href="/2023/01/20/GTM(Google%20Tag%20Manager)%20&amp;%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/"/>
+    <url>/2023/01/20/GTM(Google%20Tag%20Manager)%20&amp;%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/</url>
+    
+    <content type="html"><![CDATA[<h1>GTM(Google Tag Manager) &amp; Bing UET Tag部署</h1><p>mireia</p><h1>基础代码</h1><ol><li><p>基础代码：后台创建基础代码，复制代码ID</p></li><li><p>选择容器：在Google tag manager选择容器</p><p>一个容器ID对应一个网站。容器ID应与网站中安装的ID保持一致</p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled.png" alt="Untitled"></p><p>点击新建Tag，进入Tag Configuration</p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%201.png" alt="Untitled"></p></li><li><p>创建代码：选择Microsoft 广告</p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%202.png" alt="Untitled"></p></li><li><p>填写信息：粘贴bing UET tag ID，补充剩余信息，（UETQ ID，只有在一个网站中存在多个UET代码时需要分别命名，如Uetq1，uetq2进行区分，代码唯一时，可以忽略）</p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%203.png" alt="Untitled"></p></li><li><p>设置基础代码Trigger，选择<strong>All page</strong></p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%204.png" alt="Untitled"></p><p>Trigger指代码触发网页，<br>UET基础代码应用全局，我们设置为 All page。设置付费代码或者事件代码等应用于特定页面的代码时，trigger应设置为some page</p></li><li><p>保存并命名代码，检查代码是否生效</p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%205.png" alt="Untitled"></p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%206.png" alt="Untitled"></p></li></ol><h1>统计金额代码</h1><ol><li><p>根据追踪事件创建conversion goal，此处以付费事件为例，定位方式是结算页URL的Thank_you字符。（可以根据网站选定其他字符进行定位，但需要确保该字符不会在网站其他页面被触发，避免conversion数据错误计入）</p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%207.png" alt="Untitled"></p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%208.png" alt="Untitled"></p></li><li><p>在GTM设置Trigger，设置为进入thank you界面的用户</p></li><li><p>设置变量：为需要统计的事件设置变量，这里以统计金额和货币单位为例</p><p>创建变量： 根据站点本身对于统计金额和货币单位的命名方式填写变量名称，变量类型选择：Data Layer Variable</p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%209.png" alt="Untitled"></p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%2010.png" alt="Untitled"></p></li><li><p>设置付费页Trigger，类型选择page type，</p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%2011.png" alt="Untitled"></p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%2012.png" alt="Untitled"></p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%2013.png" alt="Untitled"></p><p>根据在conversion goal中的设置，对页面进行定位，这里是设置为page URL，包含 ，thank_you</p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%2014.png" alt="Untitled"></p></li><li><p>设置付费 Tag</p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%2015.png" alt="Untitled"></p><p>从**“Event type**”下拉列表中选择variable revenue for destination URL</p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%2016.png" alt="Untitled"></p><p>关联两个取值变量</p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%2017.png" alt="Untitled"></p><p>在下方关联之前设置的trigger, 完成后保存并发布</p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%2018.png" alt="Untitled"></p></li></ol><h1>代码检查</h1><p>**安装插件：UET Tag Helper，**打开待检测网站，打开插件</p><p><strong>基础代码成功安装截图：</strong></p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%207.png" alt="Untitled"></p><p><strong>统计金额代码成功安装截图：</strong></p><p><img src="/2023/01/20/GTM(Google%20Tag%20Manager)%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20abbd4617fb7d4ff2a96d42727e2fba62/Untitled%2019.png" alt="Untitled"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>UET tag</category>
+      
+      <category>Bing ads</category>
+      
+      <category>Bing UET Tag 对接</category>
+      
+      <category>GTM</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Bing ads</tag>
+      
+      <tag>UET tag</tag>
+      
+      <tag>Event tracking</tag>
+      
+      <tag>GTM</tag>
+      
+      <tag>Google Tag Manager</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Shopline &amp; Bing UET Tag部署</title>
     <link href="/2023/01/19/Shopline%20&amp;%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20cc45cfd569e940f795dbd53d1c07a51e/"/>
     <url>/2023/01/19/Shopline%20&amp;%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20cc45cfd569e940f795dbd53d1c07a51e/</url>
