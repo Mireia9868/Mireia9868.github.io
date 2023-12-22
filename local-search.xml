@@ -4,6 +4,78 @@
   
   
   <entry>
+    <title>Bing Ads Accounts邮箱登录报错处理</title>
+    <link href="/2023/12/22/Bing%20Ads%20Accounts%E5%85%AC%E5%8F%B8%E9%82%AE%E7%AE%B1%E6%B3%A8%E5%86%8C%205349f831a78747d690d744b446e07b14/"/>
+    <url>/2023/12/22/Bing%20Ads%20Accounts%E5%85%AC%E5%8F%B8%E9%82%AE%E7%AE%B1%E6%B3%A8%E5%86%8C%205349f831a78747d690d744b446e07b14/</url>
+    
+    <content type="html"><![CDATA[<h1>BingAds Accounts公司邮箱注册</h1><p>Mireia Sun</p><p>非Outlook &amp; Hot mail邮箱邀请时会出现如下报错，参考以下流程注册后即正常邀请：</p><p>报错名称：This username may be incorrect. Make sure you typed it correctly. Otherwise, contact your admin</p><p><img src="/2023/12/22/Bing%20Ads%20Accounts%E5%85%AC%E5%8F%B8%E9%82%AE%E7%AE%B1%E6%B3%A8%E5%86%8C%205349f831a78747d690d744b446e07b14/Untitled.png" alt="Untitled"></p><p>1.用自己公司所属域名在<a href="http://ads.microsoft.com/">ads.microsoft.com</a>创建新账户：</p><p><img src="/2023/12/22/Bing%20Ads%20Accounts%E5%85%AC%E5%8F%B8%E9%82%AE%E7%AE%B1%E6%B3%A8%E5%86%8C%205349f831a78747d690d744b446e07b14/Untitled%201.png" alt="Untitled"></p><p>2.创建成功后页面</p><p><img src="/2023/12/22/Bing%20Ads%20Accounts%E5%85%AC%E5%8F%B8%E9%82%AE%E7%AE%B1%E6%B3%A8%E5%86%8C%205349f831a78747d690d744b446e07b14/Untitled%202.png" alt="Untitled"></p><p>3.登录outlook邮箱MCC账户进行邀请（我方操作）</p><p><img src="/2023/12/22/Bing%20Ads%20Accounts%E5%85%AC%E5%8F%B8%E9%82%AE%E7%AE%B1%E6%B3%A8%E5%86%8C%205349f831a78747d690d744b446e07b14/Untitled%203.png" alt="Untitled"></p><p>4.邀请邮件，接受邀请</p><p><img src="/2023/12/22/Bing%20Ads%20Accounts%E5%85%AC%E5%8F%B8%E9%82%AE%E7%AE%B1%E6%B3%A8%E5%86%8C%205349f831a78747d690d744b446e07b14/Untitled%204.png" alt="Untitled"></p><p>5.选择personal  Account</p><p>6.表格中填写电话信息（必填）勾选协议</p><p>7.成功登录</p><p><img src="/2023/12/22/Bing%20Ads%20Accounts%E5%85%AC%E5%8F%B8%E9%82%AE%E7%AE%B1%E6%B3%A8%E5%86%8C%205349f831a78747d690d744b446e07b14/Untitled%205.png" alt="Untitled"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>广告渠道</category>
+      
+      <category>渠道投放</category>
+      
+      <category>Bing ads</category>
+      
+      <category>报错处理</category>
+      
+      <category>邮箱登录报错</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Bing ads</tag>
+      
+      <tag>广告投放</tag>
+      
+      <tag>报错处理</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Bing Ads_Audience Upload_API &amp; File</title>
+    <link href="/2023/12/22/Bing%20Ads_Audience%20Upload_API%20&amp;%20File%20bef33cd7a45c485197d2ace985cb5d71/"/>
+    <url>/2023/12/22/Bing%20Ads_Audience%20Upload_API%20&amp;%20File%20bef33cd7a45c485197d2ace985cb5d71/</url>
+    
+    <content type="html"><![CDATA[<h1>Bing Ads_Audience Upload_API &amp; File</h1><p>用api对接的邮箱进入账户后台，然后在浏览器中直接输入https://developers.ads.microsoft.com/Account 这个网址，就会出来申请token的界面</p><p><a href="https://docs.microsoft.com/en-us/advertising/guides/services-protocol?view=bingads-13">https://docs.microsoft.com/en-us/advertising/guides/services-protocol?view=bingads-13</a></p><p>1.手动上传<br>手动上传模板参见下方文件，具体要求为：<br>A.单个文件至少300 个活动电子邮件用户，最多40000个用户<br>B.文件须为CSV格式<br>C.模板中文字已进行注释，无需删除</p><p>模板下载链接：<a href="https://adsstatic.microsoft.com/AdvertiserUI/resources/files/templates/CustomerMatch/Customer_Match_Upload_Template.csv">https://adsstatic.microsoft.com/AdvertiserUI/resources/files/templates/CustomerMatch/Customer_Match_Upload_Template.csv</a></p><hr><p>2.API上传：<br>API上传需要技术同学协助处理，下方是相关文档：<br>A.授权技术同学邮箱<br>B.登陆后台后打开后方链接申请Tokenhttps://developers.ads.microsoft.com/Account</p><p><a href="https://docs.microsoft.com/en-us/advertising/guides/services-protocol?view=bingads-13">https://docs.microsoft.com/en-us/advertising/guides/services-protocol?view=bingads-13</a><br>C.后续操作参考下方文档<br><a href="https://learn.microsoft.com/en-us/advertising/bulk-service/custom-audience?view=bingads-13">https://learn.microsoft.com/en-us/advertising/bulk-service/custom-audience?view=bingads-13</a><br>Custom Audience Record - Bulk - Microsoft Advertising API | Microsoft Learn<br><a href="https://learn.microsoft.com/en-us/advertising/guides/universal-event-tracking?view=bingads-13#audience">https://learn.microsoft.com/en-us/advertising/guides/universal-event-tracking?view=bingads-13#audience</a><br>Universal Event Tracking - Microsoft Advertising API | Microsoft Learn</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>广告渠道</category>
+      
+      <category>渠道投放</category>
+      
+      <category>Bing ads</category>
+      
+      <category>Audience</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Bing ads</tag>
+      
+      <tag>广告投放</tag>
+      
+      <tag>Audience</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>电动自行车行业出海</title>
     <link href="/2023/10/22/%E7%94%B5%E5%8A%A8%E8%87%AA%E8%A1%8C%E8%BD%A6%E8%A1%8C%E4%B8%9A%E5%87%BA%E6%B5%B7%E5%88%86%E4%BA%AB%202e9aad2e036c4701913792a1d04ef8c0/"/>
     <url>/2023/10/22/%E7%94%B5%E5%8A%A8%E8%87%AA%E8%A1%8C%E8%BD%A6%E8%A1%8C%E4%B8%9A%E5%87%BA%E6%B5%B7%E5%88%86%E4%BA%AB%202e9aad2e036c4701913792a1d04ef8c0/</url>
@@ -12,6 +84,8 @@
     
     
     <categories>
+      
+      <category>市场分析和数据分析</category>
       
       <category>行业分析</category>
       
@@ -44,9 +118,11 @@
     
     <categories>
       
-      <category>Bing Ads</category>
-      
       <category>Policy &amp; News</category>
+      
+      <category>渠道产品更新</category>
+      
+      <category>Bing ads</category>
       
     </categories>
     
@@ -75,13 +151,15 @@
     
     <categories>
       
-      <category>UET tag</category>
+      <category>转化追踪&amp;API对接</category>
       
-      <category>Bing ads</category>
+      <category>转化追踪</category>
       
-      <category>Bing UET Tag 对接</category>
+      <category>代码管理器对接</category>
       
       <category>GTM</category>
+      
+      <category>Bing Ads</category>
       
     </categories>
     
@@ -114,11 +192,11 @@
     
     <categories>
       
-      <category>UET tag</category>
+      <category>广告渠道</category>
+      
+      <category>渠道投放</category>
       
       <category>Bing ads</category>
-      
-      <category>GTM</category>
       
       <category>Bid strategies</category>
       
@@ -153,9 +231,11 @@
     
     <categories>
       
-      <category>Bing ads</category>
-      
       <category>Policy &amp; News</category>
+      
+      <category>渠道政策更新</category>
+      
+      <category>Bing ads</category>
       
     </categories>
     
@@ -186,13 +266,15 @@
     
     <categories>
       
-      <category>UET tag</category>
+      <category>转化追踪&amp;API对接</category>
+      
+      <category>转化追踪</category>
+      
+      <category>代码对接</category>
       
       <category>Shopline</category>
       
-      <category>Bing ads</category>
-      
-      <category>Bing UET Tag 对接</category>
+      <category>Bing Ads</category>
       
     </categories>
     
@@ -223,9 +305,11 @@
     
     <categories>
       
-      <category>Bing ads</category>
+      <category>广告渠道</category>
       
-      <category>特殊广告类型申请</category>
+      <category>渠道投放</category>
+      
+      <category>Bing ads</category>
       
       <category>professional Service Ads</category>
       
@@ -237,6 +321,8 @@
       <tag>Bing ads</tag>
       
       <tag>professional Service Ads</tag>
+      
+      <tag>广告投放</tag>
       
     </tags>
     
@@ -254,13 +340,15 @@
     
     <categories>
       
-      <category>UET tag</category>
+      <category>转化追踪&amp;API对接</category>
       
-      <category>Bing ads</category>
+      <category>转化追踪</category>
       
-      <category>Bing UET Tag 对接</category>
+      <category>代码对接</category>
       
       <category>Shoplazza</category>
+      
+      <category>Bing Ads</category>
       
     </categories>
     
@@ -291,13 +379,15 @@
     
     <categories>
       
-      <category>UET tag</category>
+      <category>转化追踪&amp;API对接</category>
       
-      <category>Bing ads</category>
+      <category>转化追踪</category>
       
-      <category>Bing UET Tag 对接</category>
+      <category>代码对接</category>
       
       <category>Wordpress</category>
+      
+      <category>Bing Ads</category>
       
     </categories>
     
@@ -597,6 +687,41 @@
     <content type="html"><![CDATA[<h1 id="美国房地产行业增长潜力分析"><a href="#美国房地产行业增长潜力分析" class="headerlink" title="美国房地产行业增长潜力分析"></a>美国房地产行业增长潜力分析</h1><p><img src="/%E7%BE%8E%E5%9B%BD%E6%88%BF%E5%9C%B0%E4%BA%A7%E8%A1%8C%E4%B8%9A%E5%A2%9E%E9%95%BF%E6%BD%9C%E5%8A%9B%E5%88%86%E6%9E%90%209e309e83ab2f4948b378d9eae850820d/Untitled.png" alt="Untitled"></p><p>*<em>上方数据来自home sweet home，使用 2022 年第一季度的房价中位数数据</em></p><h2 id="美国房地产中位数与购房所需薪资"><a href="#美国房地产中位数与购房所需薪资" class="headerlink" title="美国房地产中位数与购房所需薪资"></a>美国房地产中位数与购房所需薪资</h2><p>下方表格按房地产售价中位数降序排列，截至发布此数据时（2022 年第一季度），</p><p>美国年度固定抵押贷款利率为 4%，房价中位数<strong>为 368,200 美元</strong>。这使得买房所需的工资接近<strong>76,000</strong>美元，美国<a href="https://www.visualcapitalist.com/us-household-income-distribution-visualized-100-homes/">家庭收入</a>中位数为 <strong>67,500 美元</strong>，这意味着相当部分家庭只能负担起下方列表<strong>后 15 个地区的房子。</strong></p><p>| — | — | — | — |</p><p>| #11 | Portland | $570,500 | $109,267 |<br>| #12 | Riverside&#x2F;San Bernardino | $560,000 | $106,192 |<br>| #13 | Sacramento | $545,000 | $105,934 |<br>| #14 | Miami | $530,000 | $103,744 |<br>| #15 | Salt Lake City | $556,900 | $100,970 |<br>| #16 | Providence | $406,700 | $88,477 |<br>| #17 | Phoenix | $474,500 | $86,295 |<br>| #18 | Las Vegas | $461,100 | $84,116 |<br>| #19 | Raleigh | $439,100 | $83,561 |<br>| #20 | Dallas | $365,400 | $81,165 |<br>| #21 | Orlando | $399,900 | $79,573 |<br>| #22 | Chicago | $325,400 | $76,463 |<br>| #23 | Tampa | $379,900 | $75,416 |<br>| #24 | Houston | $330,800 | $74,673 |<br>| #25 | Minneapolis | $355,800 | $74,145 |<br>| #26 | Baltimore | $350,900 | $73,803 |<br>| #27 | Nashville | $387,200 | $73,502 |<br>| #28 | Jacksonville | $365,900 | $73,465 |<br>| #29 | Hartford | $291,000 | $73,165 |<br>| #30 | Charlotte | $379,900 | $72,348 |<br>| #31 | San Antonio | $321,100 | $70,901 |<br>| #32 | Atlanta | $350,300 | $69,619 |<br>| #33 | Philadelphia | $297,900 | $69,569 |<br>| #34 | Richmond | $354,500 | $68,629 |<br>| #35 | Milwaukee | $298,800 | $65,922 |<br>| #36 | Kansas City | $287,400 | $60,507 |<br>| #37 | Columbus | $274,300 | $59,321 |<br>| #38 | Virginia Beach | $289,900 | $59,245 |<br>| #39 | New Orleans | $281,100 | $57,853 |<br>| #40 | Birmingham | $289,500 | $55,662 |<br>| #41 | Indianapolis | $271,600 | $53,586 |<br>| #42 | Memphis | $259,300 | $52,691 |<br>| #43 | Cincinnati | $244,300 | $51,840 |<br>| #44 | Buffalo | $202,300 | $51,525 |<br>| #45 | Detroit | $224,300 | $50,302 |<br>| #46 | St Louis | $216,700 | $48,988 |<br>| #47 | Louisville | $235,400 | $48,121 |<br>| #48 | Cleveland | $192,700 | $45,448 |<br>| #49 | Oklahoma City | $198,200 | $45,299 |<br>| #50 | Pittsburgh | $185,700 | $42,858 |</p><h2 id="全美50个州各州人口数量及增长趋势"><a href="#全美50个州各州人口数量及增长趋势" class="headerlink" title="全美50个州各州人口数量及增长趋势"></a>全美50个州各州人口数量及增长趋势</h2><p><img src="/%E7%BE%8E%E5%9B%BD%E6%88%BF%E5%9C%B0%E4%BA%A7%E8%A1%8C%E4%B8%9A%E5%A2%9E%E9%95%BF%E6%BD%9C%E5%8A%9B%E5%88%86%E6%9E%90%209e309e83ab2f4948b378d9eae850820d/Untitled%201.png" alt="Untitled"></p><p>*上方数据来自于<a href="http://worldpopulationreview.com/">worldpopulationreview.com</a>，2022年数据</p>]]></content>
     
     
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Policy &amp; News-search campaign中取消Audience Ads Bid Adjustment</title>
+    <link href="/2022/02/22/Policy%20&amp;%20News-search%20campaign%E4%B8%AD%E5%8F%96%E6%B6%88Audience%20Ads%20Bid%20A%20847f10fadc344a5fba0b0aa155bb3365/"/>
+    <url>/2022/02/22/Policy%20&amp;%20News-search%20campaign%E4%B8%AD%E5%8F%96%E6%B6%88Audience%20Ads%20Bid%20A%20847f10fadc344a5fba0b0aa155bb3365/</url>
+    
+    <content type="html"><![CDATA[<h1>Policy &amp; News-search campaign中取消Audience Ads Bid Adjustment</h1><p>微软自2022年2月21 日起将会全面取消search campaign中audience ads bid adjustment的功能；</p><p>届时，目前账户中在campaign setting的bid adjustment中做得bidding 调整将会全面失效</p><p>生效后，默认search campaign中的audience network是100%正常展示的状态。</p><p>关于此次调整产生的一系列问题和解决方案详见如下列表，请知悉：</p><p>1． 客户此前投放过SWF，效果很差，不希望开启，是否有解决方案？</p><p>建议客户可以通过预先添加exclusion list的方式来实现无效流量的提前排除;</p><p>建议预先排除的publisher list，可以参考附件；结合高流量/未排除的</p><p>附件1：[blocked domain list-202203]</p><p><a href="Policy%20&amp;%20News-search%20campaign%E4%B8%AD%E5%8F%96%E6%B6%88Audience%20Ads%20Bid%20A%20847f10fadc344a5fba0b0aa155bb3365/blocked_donmain_list-device.xlsx">blocked donmain list-device.xlsx</a></p><p>附件2：过去7天在MSAN SWF上主流的流量分布和CPC；可以看到主流流量几乎集中在msn和outlook，排除后其他publisher的流量占比较低</p><p>2． 更新后，有哪些注意事项？</p><p>建议AM和客户务必共同关注几天账户流量的变化；若出现流量突然上涨，则尽快排查publisher list</p><p>绝大部分客户MSAN SWF的流量有极小幅度的提升，个别客户也出现了MSAN SWF流量的大幅下跌。</p><p>因此，还望各位及时关注2022年2月21日前后账户的流量变化，尤其是MSAN SWF的变动，有异常，及时提出来。</p><p>3． MSAN SWF被动开启后，除排除publisher list，还有其他优化空间么？</p><p>MSAN SWF的展示逻辑为，根据campaign中的关键词，定向匹配曝光，原则上，产品词曝光概率高于品牌词；广泛匹配曝光概率高于精确匹配；</p><p>同时，MSAN SWF目前为确保广告可以成功在不同的版位正常展示，要求账户中至少有一张图片素材，可以是image extension, 可以是feeds，可以是audience campaign中的image ads。</p><p>如果机器在账户里扫描不到任何一张图片，微软会自动在自己的assets library中，结合关键词（search term）匹配相应的图片，构成自适应广告，进行曝光。</p><p>定向优化MSAN SWF的效果除</p><p>常规的bidding / budget控制后，建议客户可以在账户中，结合campaign内容，添加相应的image extension，来优化广告，以避免由于微软采用自己素材库的图片自动匹配生成的广告，与客户自己网站的商品差距过大，带来的无意义的点击。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Policy &amp; News</category>
+      
+      <category>渠道政策更新</category>
+      
+      <category>Bing ads</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Bing ads</tag>
+      
+      <tag>广告投放</tag>
+      
+      <tag>Policy &amp; News</tag>
+      
+      <tag>渠道政策更新</tag>
+      
+    </tags>
     
   </entry>
   
