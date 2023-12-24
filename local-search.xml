@@ -327,6 +327,109 @@
   
   
   <entry>
+    <title>Google Ads-Display &amp; Video 360简介&amp;界面说明</title>
+    <link href="/2023/01/19/Display%20&amp;%20Video%20360%E7%AE%80%E4%BB%8B&amp;%E7%95%8C%E9%9D%A2%E8%AF%B4%E6%98%8E%209b9bc5d74050451482f75da0d48479e1/"/>
+    <url>/2023/01/19/Display%20&amp;%20Video%20360%E7%AE%80%E4%BB%8B&amp;%E7%95%8C%E9%9D%A2%E8%AF%B4%E6%98%8E%209b9bc5d74050451482f75da0d48479e1/</url>
+    
+    <content type="html"><![CDATA[<h1>Display &amp; Video 360简介&amp;界面说明</h1><h1>DV360和Google Ads的区别：</h1><ol><li>广告：Google Ads主要提供搜索，展示广告和购物广告，而DV360提供广泛的广告类型，包括视频、原生广告和社交媒体广告等。</li><li>投放方式：Google Ads主要是自助式广告平台，广告主可以通过Google Ads账户自行设置和管理广告活动。而DV360主要是企业级广告平台，需要与广告机构或谷歌代理合作才能使用。</li><li>广告目标受众：Google Ads主要面向终端用户，而DV360主要面向广告机构、广告代理和广告交易平台等专业广告从业人员。</li><li>定价方式：Google Ads的定价方式基于<strong>cost-per-click (CPC)<strong>竞价，而DV360基于p</strong>rogrammatic advertising buying model程序化广告</strong>购买</li></ol><h1><strong>Display &amp; Video 360 Overview</strong>：</h1><h2 id="层级">层级</h2><p>与google ads的顶部菜单栏不同，DV360的菜单栏被移动到左侧，并被分为5个层级，依次为：<strong>Campaigns，Audiences，Creatives，Inventory，Reports</strong></p><p><img src="/2023/01/19/Display%20&%20Video%20360%E7%AE%80%E4%BB%8B&%E7%95%8C%E9%9D%A2%E8%AF%B4%E6%98%8E%209b9bc5d74050451482f75da0d48479e1/Untitled.png" alt="Untitled"></p><h2 id="Audience：">Audience：</h2><h3 id="Create-Audience">Create Audience</h3><p>支持创建第一方和第三方受众群体列表、Google数据并进行分析，支持跨数据的audience组合</p><p><strong>支持创建Audience类型 &amp; Audience共享</strong></p><p><img src="/2023/01/19/Display%20&%20Video%20360%E7%AE%80%E4%BB%8B&%E7%95%8C%E9%9D%A2%E8%AF%B4%E6%98%8E%209b9bc5d74050451482f75da0d48479e1/Untitled%201.png" alt="Untitled"></p><p>最近添加的受众会在 <strong>4 小时</strong>内显示在“所有受众”中，但组合受众可以立刻使用</p><p><img src="/2023/01/19/Display%20&%20Video%20360%E7%AE%80%E4%BB%8B&%E7%95%8C%E9%9D%A2%E8%AF%B4%E6%98%8E%209b9bc5d74050451482f75da0d48479e1/Untitled%202.png" alt="Untitled"></p><h3 id="从GG-Ads关联受众">从GG Ads关联受众</h3><ul><li>从DV360发出共享申请<ol><li>找到您的广告客户，展开左侧菜单中的<strong>设置</strong>，然后点击<strong>已关联的帐号</strong>。</li><li>依次点击<strong>关联新帐号</strong> <strong>&gt; Google Ads</strong>。</li><li>输入要关联的 Google Ads 帐号的客户 ID。</li><li>选择您的 Google Ads 帐号和 Display &amp; Video 360 帐号是否是由同一家公司/组织管理。如果您想在 Google 产品之间<a href="https://support.google.com/displayvideo/answer/6339564">共享第一方受众群体名单</a>，相关帐号必须由同一家公司管理。</li><li>在**“关联 Google Ads 客户”部分**中：<ol><li>如果您的帐号（即您用来登录的帐号）既能访问 Display &amp; Video 360，也能访问 Google Ads，请点击<strong>我想将自己拥有的 Google Ads 帐号关联到此广告客户</strong>。</li><li>如果您不是相应 Google Ads 帐号的管理员，请点击<strong>我想将他人拥有的 Google Ads 帐号关联到此广告客户</strong>，并输入该帐号的管理员的电子邮件地址。</li></ol></li><li>点击<strong>关联</strong>。<ol><li>（接第 5a 步）阅读随即打开的新标签页中的条款并点击<strong>接受</strong>。</li><li>（接第 5b 步）系统会向该 Google Ads 帐号的管理员发送一封电子邮件，请求其准许将其名下的所有 Google Ads 受众群体名单关联到此 Display &amp; Video 360 广告客户。</li></ol></li></ol></li><li>GG ads中批准申请，即可共享Audience数据<ol><li>在请求获权访问 Google Ads 受众群体名单的电子邮件中，点击<strong>批准或拒绝此请求</strong>。<ul><li>这封电子邮件的主题行会显示为：“请将您的 Google Ads 帐号与 Display &amp; Video 360 关联”</li></ul></li><li>系统会随即打开一个新的 Google Ads 页面，其中含有与受众群体名单共享相关的条款。</li><li>点击<strong>接受</strong>。</li></ol></li></ul><p>*<em>第一方受众：第一方受众是指广告主自己的客户或网站访问者等直接获得的用户数据。这些数据通常包括用户的行为、偏好和兴趣等，可以用于定向广告和优化广告效果。</em></p><p><em>第三方受众：第三方受众是指由第三方数据提供商收集的用户数据。这些数据通常包括用户的人口统计信息、兴趣爱好、行为和购买历史等，可以用于广告定向和精细化广告投放。</em></p><p><em>第二方受众：第二方受众是指受众数据来源于另一个公司或组织，但不是由第三方提供的数据。例如，两个公司可以共享其用户数据，以便彼此更好地定向广告。</em></p><h2 id="Creatives：">Creatives：</h2><h3 id="Ad-Canvas："><strong>Ad Canvas：</strong></h3><p>创建并预览广告，客户可以集中管理广告投放、优化和分析，提高广告效果和转化率。</p><p><img src="/2023/01/19/Display%20&%20Video%20360%E7%AE%80%E4%BB%8B&%E7%95%8C%E9%9D%A2%E8%AF%B4%E6%98%8E%209b9bc5d74050451482f75da0d48479e1/Untitled%203.png" alt="Untitled"></p><h3 id="The-Format-Gallery："><strong>The Format Gallery：</strong></h3><p>提供每种格式的说明以及示例广告，为广告尺寸和样式提供参考</p><h3 id="Data-driven-creatives："><strong>Data-driven creatives：</strong></h3><p>提供了数据分析和优化工具，可以帮助优化广告及投放策略，实现更好的广告效果和转化率。</p><h2 id="Inventory：">Inventory：</h2><h3 id="Deals："><strong>Deals：</strong></h3><p>指广告买卖双方进行的广告交易。广告交易可以是直接交易，也可以是通过广告交易平台进行的自动化交易。自动化交易包括<strong>实时竞价、私人市场和保证交易</strong>等</p><p><img src="/2023/01/19/Display%20&%20Video%20360%E7%AE%80%E4%BB%8B&%E7%95%8C%E9%9D%A2%E8%AF%B4%E6%98%8E%209b9bc5d74050451482f75da0d48479e1/Untitled%204.png" alt="Untitled"></p><h3 id="Marketplace：">Marketplace：</h3><p>指广告交易平台上的供应商和需求方之间的市场。供应商是指拥有广告库存的媒体公司、出版商或应用程序开发商，而需求方是指广告主或广告代理公司等广告买家，这里展示了可供展示广告的TV&amp;Publisher</p><p><img src="/2023/01/19/Display%20&%20Video%20360%E7%AE%80%E4%BB%8B&%E7%95%8C%E9%9D%A2%E8%AF%B4%E6%98%8E%209b9bc5d74050451482f75da0d48479e1/Untitled%205.png" alt="Untitled"></p><h2 id="Related-Links：">Related Links：</h2><p><a href="https://www.blog.google/search/?query=Display+%26+Video+360">Search (blog.google)</a></p><p><a href="https://support.google.com/displayvideo?sjid=1472731275576069163-AP#topic=9059505">Display &amp; Video 360 Help (google.com)</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>广告渠道</category>
+      
+      <category>渠道投放</category>
+      
+      <category>Google Ads</category>
+      
+      <category>Display &amp; Video 360</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Google Ads</tag>
+      
+      <tag>Display &amp; Video 360</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Google Ads-GMC（Google Merchant Center）创建流程</title>
+    <link href="/2023/01/19/GMC%EF%BC%88Google%20Merchant%20Center%EF%BC%89%E5%88%9B%E5%BB%BA%E6%B5%81%E7%A8%8B%200afe4da643f64a2391db414fac08550a/"/>
+    <url>/2023/01/19/GMC%EF%BC%88Google%20Merchant%20Center%EF%BC%89%E5%88%9B%E5%BB%BA%E6%B5%81%E7%A8%8B%200afe4da643f64a2391db414fac08550a/</url>
+    
+    <content type="html"><![CDATA[<h1>GMC（Google Merchant Center）创建流程</h1><h2 id="创建GMC">创建GMC</h2><blockquote><p><strong>一个gamil邮箱只能创建一个GMC，如果该邮箱下已有GMC将无法创建</strong></p></blockquote><blockquote><p>企业gmail邮箱受企业限制，无法创建GMC</p></blockquote><ol><li>创建链接：</li></ol><p><a href="https://www.google.com/retail/solutions/merchant-center/">https://www.google.com/retail/solutions/merchant-center/</a></p><p><img src="/2023/01/19/GMC%EF%BC%88Google%20Merchant%20Center%EF%BC%89%E5%88%9B%E5%BB%BA%E6%B5%81%E7%A8%8B%200afe4da643f64a2391db414fac08550a/Untitled.png" alt="Untitled"></p><ol><li>根据实际情况选择</li></ol><p><img src="/2023/01/19/GMC%EF%BC%88Google%20Merchant%20Center%EF%BC%89%E5%88%9B%E5%BB%BA%E6%B5%81%E7%A8%8B%200afe4da643f64a2391db414fac08550a/Untitled%201.png" alt="Untitled"></p><ol><li>下一步</li></ol><p><img src="/2023/01/19/GMC%EF%BC%88Google%20Merchant%20Center%EF%BC%89%E5%88%9B%E5%BB%BA%E6%B5%81%E7%A8%8B%200afe4da643f64a2391db414fac08550a/Untitled%202.png" alt="Untitled"></p><ol><li>填写信息</li></ol><p><img src="/2023/01/19/GMC%EF%BC%88Google%20Merchant%20Center%EF%BC%89%E5%88%9B%E5%BB%BA%E6%B5%81%E7%A8%8B%200afe4da643f64a2391db414fac08550a/Untitled%203.png" alt="Untitled"></p><p>Business Name：作为展示的品牌名，避免全部大写</p><h2 id="填充信息">填充信息</h2><p><img src="/2023/01/19/GMC%EF%BC%88Google%20Merchant%20Center%EF%BC%89%E5%88%9B%E5%BB%BA%E6%B5%81%E7%A8%8B%200afe4da643f64a2391db414fac08550a/Untitled%204.png" alt="Untitled"></p><ol><li>Business Information</li></ol><p><img src="/2023/01/19/GMC%EF%BC%88Google%20Merchant%20Center%EF%BC%89%E5%88%9B%E5%BB%BA%E6%B5%81%E7%A8%8B%200afe4da643f64a2391db414fac08550a/Untitled%205.png" alt="Untitled"></p><p>**Business Address：**公司注册（营业执照）地址，海内海外均可（注意网站和GMC地址要和营业执照上的地址对应起来）</p><p>国家/地区层级更改需要删除账号重新创建（账号未封禁，重建GMC不会触发规避系统）</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>广告渠道</category>
+      
+      <category>渠道投放</category>
+      
+      <category>Google Ads</category>
+      
+      <category>GMC</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Google Ads</tag>
+      
+      <tag>GMC</tag>
+      
+      <tag>GMC创建</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Google Ads-Google Ads API 对接</title>
+    <link href="/2023/01/19/Google%20Ads%20API%20%E8%8E%B7%E5%8F%96%20(1)%209039ff8086404e649ba34544910e3a1c/"/>
+    <url>/2023/01/19/Google%20Ads%20API%20%E8%8E%B7%E5%8F%96%20(1)%209039ff8086404e649ba34544910e3a1c/</url>
+    
+    <content type="html"><![CDATA[<h1>Google Ads API 对接</h1><p><a href="https://developers.google.com/google-ads/api/docs/get-started/dev-token#apply-token">Google Ads API sign-up</a></p><h1>创建开发者令牌</h1><p>on the Google Ads web interface to automatically be granted the test account access level.</p><p>在 Google Ads 网页界面上完成 Google Ads API 注册，即可自动获得测试帐号访问权限级别。</p><p><img src="/2023/01/19/Google%20Ads%20API%20%E8%8E%B7%E5%8F%96%20(1)%209039ff8086404e649ba34544910e3a1c/Untitled.png" alt="Untitled"></p><h3 id="第-2-步：申请访问-Google-Ads-API">第 2 步：申请访问 Google Ads API</h3><p><a href="https://ads.google.com/home/tools/manager-accounts/?hl=zh-cn">登录您的经理帐号</a>，然后前往<strong>工具和设置 &gt; 设置 &gt; API 中心</strong>。系统仅针对 Google Ads <em>经理帐号</em>显示 <strong>API 中心</strong>选项。</p><p>然后，填写 API 访问权限表单并接受条款及条件。</p><ul><li><p>请确保您的信息正确无误，并且贵公司的网站网址也能正常运行。如果该网站未上线，Google 可能无法处理您的应用并拒绝它。</p></li><li><p>确保您提供的 API 联系电子邮件地址是您定期查看的收件箱。在审核期间，Google 的 API 合规团队可能会与此电子邮件地址联系以澄清说明。如果无法访问，Google 可能不会继续处理您的应用。</p><p>您可以在 <strong>API 中心</strong>修改 <strong>API 联系电子邮件地址</strong>。即使在申请流程之后，也请及时更新这些信息，以便 Google 可以向您发送重要的服务公告。</p><p><img src="/2023/01/19/Google%20Ads%20API%20%E8%8E%B7%E5%8F%96%20(1)%209039ff8086404e649ba34544910e3a1c/Untitled%201.png" alt="Untitled"></p></li></ul><hr><p>完成申请流程后，开发者令牌会以<strong>待审批</strong>状态显示在您的 API 中心。您的开发者令牌现在具有<strong>测试访问权限</strong>级别，您可以开始对<a href="https://developers.google.com/google-ads/api/docs/best-practices/test-accounts?hl=zh-cn">测试帐号</a>发出 API 调用。</p><blockquote><p>获取开发者令牌后，请记下其值，因为您在进行首次 API 调用时需要用到它。</p></blockquote><h1><strong>创建一个 Google API 控制台项目</strong></h1><p><a href="https://console.developers.google.com/project?hl=zh-cn">https://console.developers.google.com/project?hl=zh-cn</a></p><p><img src="/2023/01/19/Google%20Ads%20API%20%E8%8E%B7%E5%8F%96%20(1)%209039ff8086404e649ba34544910e3a1c/Untitled%202.png" alt="Untitled"></p><ul><li>前往 <strong><a href="https://console.developers.google.com/project?hl=zh-cn">Google API 控制台</a></strong></li><li>点击<strong>创建项目</strong></li><li>输入名称或接受生成的建议</li><li>确认或修改其余所有字段</li><li>点击<strong>创建</strong></li></ul><p><img src="/2023/01/19/Google%20Ads%20API%20%E8%8E%B7%E5%8F%96%20(1)%209039ff8086404e649ba34544910e3a1c/Untitled%203.png" alt="Untitled"></p><ol><li><p>打开 <a href="https://console.cloud.google.com/apis/credentials/consent?hl=zh-cn">“同意屏幕”页面</a>，然后在页面顶部的下拉菜单中选择您的项目。</p></li><li><p>选择<strong>用户类型</strong>，然后点击<strong>创建</strong>。</p></li><li><p>填写同意屏幕表单。如果需要，您以后可以进行修改。 完成后，点击<strong>保存并继续</strong>。</p></li><li><p>在下一页上，点击<strong>添加或移除范围</strong>。</p></li><li><p>向下滚动，然后在<strong>手动添加范围</strong>下的字段中输入以下内容：</p><p><code>https://www.googleapis.com/auth/adwords</code></p></li><li><p>点击<strong>添加到表格</strong>。</p></li><li><p>添加项目可能需要的任何其他范围，然后点击<strong>更新</strong>。</p></li><li><p>点击<strong>保存并继续</strong>。</p></li><li><p>如果您不打算立即发布项目，请添加您可能用于测试的每个用户帐号的电子邮件地址，然后点击<strong>保存并继续</strong>。</p></li><li><p>查看摘要页面，然后点击<strong>返回信息中心</strong>。</p></li></ol><p><img src="/2023/01/19/Google%20Ads%20API%20%E8%8E%B7%E5%8F%96%20(1)%209039ff8086404e649ba34544910e3a1c/Untitled%204.png" alt="Untitled"></p><p><img src="/2023/01/19/Google%20Ads%20API%20%E8%8E%B7%E5%8F%96%20(1)%209039ff8086404e649ba34544910e3a1c/Untitled%205.png" alt="Untitled"></p><p><img src="/2023/01/19/Google%20Ads%20API%20%E8%8E%B7%E5%8F%96%20(1)%209039ff8086404e649ba34544910e3a1c/Untitled%206.png" alt="Untitled"></p><h1>在项目中启用 Google Ads API</h1><p>To enable the Google Ads API in your project, follow these steps:要在项目中启用 Google Ads API，请按以下步骤操作：</p><ol><li><a href="https://console.cloud.google.com/apis/library">Open the API Library</a> in the Google API Console. If prompted, select your project or create a new one. The API Library lists all available APIs, grouped by product family and popularity.在 Google API 控制台中打开 API 库。如果出现提示，请选择您的项目或创建一个新项目。API 库列出了所有可用的 API，并按产品系列和受欢迎程度分组。</li><li>Use search to find the Google Ads API if it isn’t visible in the list.如果列表中未显示 Google Ads API，请使用搜索来查找该 API。</li><li>Select the Google Ads API, then click the <strong>Enable</strong> button.选择 Google Ads API，然后点击启用按钮。</li></ol><p><img src="/2023/01/19/Google%20Ads%20API%20%E8%8E%B7%E5%8F%96%20(1)%209039ff8086404e649ba34544910e3a1c/Untitled%207.png" alt="Untitled"></p><p><strong>准备客户帐号</strong></p><h2 id="特征集的选择">特征集的选择</h2><p>选择用于调用 API 的帐号时，还需要考虑要与 API 搭配使用的功能列表。即使您选择使用生产帐号，也有一些特定于帐号的功能，例如：</p><ul><li>要使用结算功能，您需要一个采用按月账单结算的帐号。</li><li>部分新功能可能仅限列入许可名单的帐号列表使用。</li></ul><p>在最终确定进行 API 调用的帐号之前，请查看特定功能的文档，以确保该功能没有其他限制。</p><h2 id="用户访问权限、登录客户-ID-和客户-ID">用户访问权限、登录客户 ID 和客户 ID</h2><p>要向 Google Ads 客户进行 API 调用，您需要直接访问该客户或通过关联的经理帐号进行访问。您还需要根据特定的 API 调用拥有适当的权限。</p><p>登录 Google Ads 时，您可能会有多个客户帐号可供选择。您选择的帐号会建立登录客户 ID（某些 API 调用的必需标头）和您的访问权限级别。</p><p>确定要向其发出 API 调用的 Google Ads 客户后，请注意以下详细信息：</p><ul><li>您计划向其发出 API 调用的客户帐号的 10 位数客户 ID。这有时也称为操作客户。</li><li>您所登录的客户帐号的电子邮件地址。需要此令牌才能生成 OAuth 2.0 刷新令牌。</li><li>您所登录客户帐号的 10 位数登录客户 ID。 如果您已登录正在运行的客户，则登录客户 ID 与客户 ID 相同</li></ul><p>邀请用户后，注意前往邮箱激活邀请以确保可以正常进入</p><h1>下载工具和客户端库</h1><p>bookmark_border</p><p>下载以下工具以完成本教程的其余步骤。</p><h2 id="OAuth2L">OAuth2L</h2><p>Google Ads API 使用 OAuth 2.0 作为授权机制。本教程使用 <code>oauth2l</code>，这是一种用于处理 Google OAuth 2.0 的命令行工具，用于获取和输出访问令牌和刷新令牌。您可以从 GitHub 代码库下载并<a href="https://github.com/google/oauth2l#pre-compiled-binaries">安装预编译的二进制文件</a>。</p><h2 id="客户端库或-HTTP-客户端">客户端库或 HTTP 客户端</h2><p>根据所需的 API 调用方式，您可以选择下载客户端库或 HTTP 客户端。</p><p><a href="https://developers.google.com/google-ads/api/docs/get-started/download-tools-libraries?hl=zh-cn">https://developers.google.com/google-ads/api/docs/get-started/download-tools-libraries?hl=zh-cn</a></p><h1>相关链接：</h1><p>获取基础权限</p><p><a href="https://developers.google.com/google-ads/api/docs/access-levels#applying_for_basic_access">https://developers.google.com/google-ads/api/docs/access-levels#applying_for_basic_access</a></p><p>API获取总览：</p><p><a href="https://developers.google.com/google-ads/api/docs/start">https://developers.google.com/google-ads/api/docs/start</a></p><p>获取链接：</p><p><a href="https://ads.google.com/intl/zh-CN_cn/home/tools/api/">https://ads.google.com/intl/zh-CN_cn/home/tools/api/</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>广告渠道</category>
+      
+      <category>渠道投放</category>
+      
+      <category>Google Ads</category>
+      
+      <category>API</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Google Ads</tag>
+      
+      <tag>API</tag>
+      
+      <tag>API 对接</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Shopline &amp; Bing UET Tag部署</title>
     <link href="/2023/01/19/Shopline%20&amp;%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20cc45cfd569e940f795dbd53d1c07a51e/"/>
     <url>/2023/01/19/Shopline%20&amp;%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%20cc45cfd569e940f795dbd53d1c07a51e/</url>
