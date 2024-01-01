@@ -1,0 +1,1052 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/avatar.png">
+  <link rel="icon" href="/img/avatar.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Mireia">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="Criteo不同投放目标使用方案 本文内容来自Criteo Support团队，仅供学习，不支持转载 Criteo 广告展示流程介绍 用户浏览网页 Criteo引擎学习用户在广告主网站的交互深度，购买行为与产品偏好等： • 学习用户在不同设备&#x2F;浏览器&#x2F;APP上的完整浏览、购买过程。 • 在用户交互与购买的过程中，发现用户最感兴趣的产品（爆品，加购最多，交叉销售等120+信号） 完善的埋点与商品目录">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Criteo Ads账户目标选择及搭建方案">
+<meta property="og:url" content="http://example.com/2024/01/01/Criteo%E4%B8%8D%E5%90%8C%E6%8A%95%E6%94%BE%E7%9B%AE%E6%A0%87%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88%2089c363702fbc46ef8fb2e0dc146a2a95/index.html">
+<meta property="og:site_name" content="Mireia SEM Blog">
+<meta property="og:description" content="Criteo不同投放目标使用方案 本文内容来自Criteo Support团队，仅供学习，不支持转载 Criteo 广告展示流程介绍 用户浏览网页 Criteo引擎学习用户在广告主网站的交互深度，购买行为与产品偏好等： • 学习用户在不同设备&#x2F;浏览器&#x2F;APP上的完整浏览、购买过程。 • 在用户交互与购买的过程中，发现用户最感兴趣的产品（爆品，加购最多，交叉销售等120+信号） 完善的埋点与商品目录">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2024/01/01/Criteo%E4%B8%8D%E5%90%8C%E6%8A%95%E6%94%BE%E7%9B%AE%E6%A0%87%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88%2089c363702fbc46ef8fb2e0dc146a2a95/Untitled.png">
+<meta property="og:image" content="http://example.com/2024/01/01/Criteo%E4%B8%8D%E5%90%8C%E6%8A%95%E6%94%BE%E7%9B%AE%E6%A0%87%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88%2089c363702fbc46ef8fb2e0dc146a2a95/Untitled%201.png">
+<meta property="og:image" content="http://example.com/2024/01/01/Criteo%E4%B8%8D%E5%90%8C%E6%8A%95%E6%94%BE%E7%9B%AE%E6%A0%87%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88%2089c363702fbc46ef8fb2e0dc146a2a95/Untitled%202.png">
+<meta property="og:image" content="http://example.com/2024/01/01/Criteo%E4%B8%8D%E5%90%8C%E6%8A%95%E6%94%BE%E7%9B%AE%E6%A0%87%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88%2089c363702fbc46ef8fb2e0dc146a2a95/Untitled%203.png">
+<meta property="article:published_time" content="2024-01-01T05:29:33.000Z">
+<meta property="article:modified_time" content="2024-01-01T06:21:48.350Z">
+<meta property="article:author" content="Mireia">
+<meta property="article:tag" content="广告投放">
+<meta property="article:tag" content="Criteo ads">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/2024/01/01/Criteo%E4%B8%8D%E5%90%8C%E6%8A%95%E6%94%BE%E7%9B%AE%E6%A0%87%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88%2089c363702fbc46ef8fb2e0dc146a2a95/Untitled.png">
+  
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
+  
+  
+  <title>Criteo Ads账户目标选择及搭建方案 - Mireia SEM Blog</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Mireia Sem Blog</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                Home
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                Archives
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                Categories
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                Tags
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                About
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="Criteo Ads账户目标选择及搭建方案"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-01-01 13:29" pubdate>
+          January 1, 2024 pm
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          6.8k words
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          57 mins
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">Criteo Ads账户目标选择及搭建方案</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h1>Criteo不同投放目标使用方案</h1>
+<p>本文内容来自Criteo Support团队，仅供学习，不支持转载</p>
+<h1><strong><strong>Criteo 广告展示流程介绍</strong></strong></h1>
+<h2 id="用户浏览网页">用户浏览网页</h2>
+<p>Criteo引擎学习用户在广告主网站的交互深度，购买行为与产品偏好等：</p>
+<p>• 学习用户在不同设备/浏览器/APP上的完整浏览、购买过程。<br>
+• 在用户交互与购买的过程中，发现用户最感兴趣的产品（爆品，加购最多，交叉销售等120+信号）<br>
+完善的埋点与商品目录是重中之重，是Criteo引擎能够学习到正确信息的基础。用户访问媒体端页面</p>
+<h2 id="用户访问媒体端页面">用户访问媒体端页面</h2>
+<p>用户离开广告主网站后，来到<strong>Criteo接入的公开互联网平台</strong>（对接了广告交易平台与上千家直签媒体）：</p>
+<p>这里指客户来到与Criteo有合作关系的展示网站<br>
+• 在原生广告/社交广告/APP/PC中最好的展示位置。<br>
+• 领先的用户覆盖率（覆盖月活用户25亿）<br>
+• 深入的媒体合作关系，覆盖广告交易平台不能拿到的广告展示机会<br>
+• 品牌安全度高<br>
+正确的广告组设定，帮助您准确触达目标受众：<br>
+展示国家、设备、媒体黑白名单、brand safety等</p>
+<h2 id="Criteo展示动态广告"><strong>Criteo展示动态广告</strong></h2>
+<ul>
+<li>收到用户竞价请求后，<strong>通过预测竞价引擎，预测用户价值后进行竞价</strong></li>
+<li>根据机器学习客户的消费习惯和价值后对该客户进行广告位竞价</li>
+<li>竞价成功后：产品推荐引擎根据用户的兴趣展示最有可能达成CPt/ROI目标的产品</li>
+<li>动态广告创意引擎(DCO+)：根据用户视觉偏好为其搭配CTR最大化的广告样式</li>
+<li>正确的广告设置，创意设置是达到理想效果的重要一环<br>
+关注指标：Audience, exposed user, reach, display, clicks, ctr, CPC, win rate</li>
+</ul>
+<h2 id="用户点击广告后回到网站，进一步浏览和转化">用户点击广告后回到网站，进一步浏览和转化</h2>
+<p>与营销内容一致的网站产品/服务，良好的运营与服务确保流量有效的承接<br>
+关注指标：<br>
+Landing rate, visits, bounce rate, sales, revenue, CR, CPt, ROAS</p>
+<p><img src="/2024/01/01/Criteo%E4%B8%8D%E5%90%8C%E6%8A%95%E6%94%BE%E7%9B%AE%E6%A0%87%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88%2089c363702fbc46ef8fb2e0dc146a2a95/Untitled.png" srcset="/img/loading.gif" lazyload alt="Untitled"></p>
+<p>异步加载：<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/7105c1983384">https://www.jianshu.com/p/7105c1983384</a></p>
+<p>async 属性表示异步执行引入的 JavaScript，与 defer 的区别在于，如果已经加载好，就会开始执行，无论此刻是 HTML 解析阶段还是 DOMContentLoaded 触发(HTML解析完成事件)之后。需要注意的是，这种方式加载的 JavaScript 依然会阻塞 load 事件。换句话说，async-script 可能在 DOMContentLoaded 触发之前或之后执行，但一定在 load 触发之前执行。<br>
+从上一段也能推出，多个 async-script 的执行顺序是不确定的，谁先加载完谁执行。值得注意的是，向 document 动态添加 script 标签时，async 属性默认是 true。</p>
+<h1>账户结构：</h1>
+<h2 id="Account"><strong>Account</strong></h2>
+<ul>
+<li>在Criteo，如果您只跑<strong>再营销广告</strong>，投放全球，可以按<strong>美洲，欧洲，亚洲</strong>三个数</li>
+</ul>
+<p>据中心开三个账户，在ad set 层级设置投放国家以达到区分的目的。</p>
+<ul>
+<li>如果您希望投放<strong>再营销</strong>与<strong>拉新</strong>的广告，使用完整的Criteo广告服务，需要区分国</li>
+</ul>
+<p>家开广告账户，首次合作，可以先从<strong>流量最大的意向国家开户</strong>。</p>
+<ul>
+<li>如果您既有<strong>app</strong>也有<strong>网页端</strong>，如果app和web的<strong>产品id</strong>，<strong>库存信息，商品价格</strong>用</li>
+</ul>
+<p>的是一套，<strong>可以在同一个账户中投放app和网页端</strong>，如果App端的业务独立于网</p>
+<p>页端，有不同的产品ID，库存信息，价格等信息，需要<strong>单独开app的账户</strong>。</p>
+<h2 id="Campaign-What"><strong>Campaign(What)</strong></h2>
+<ul>
+<li>设置您的业务目标goal，用作数据报告中区分campaign使用，可选acquisition（拉新）</li>
+</ul>
+<p>与retention（再营销）</p>
+<ul>
+<li>Campaign name，建议填写<strong>账户国家</strong>，<strong>goal</strong>，<strong>objective</strong>的信息</li>
+<li>Objective：营销目标，对应不同的ad set 功能、人群与设定，可选awareness，</li>
+</ul>
+<p>consideration与conversion</p>
+<p><img src="/2024/01/01/Criteo%E4%B8%8D%E5%90%8C%E6%8A%95%E6%94%BE%E7%9B%AE%E6%A0%87%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88%2089c363702fbc46ef8fb2e0dc146a2a95/Untitled%201.png" srcset="/img/loading.gif" lazyload alt="Untitled"></p>
+<p>标<em>需要联系Criteo客户经理走加白名单/Criteo内部系统设置(部分有锁定预算的要求)<br>
+未标</em>的受众类型可直接在Criteo后台自助设置投放</p>
+<p>Best Practice：</p>
+<p>因为在创建广告组时应避免<strong>同一广告组</strong>定向的<strong>人群有重叠导致内部竞争</strong>(竞价为ad set level)，因此Retargeting 与similar(prospecting)受众在广告组(ad set)设置时再创建。<br>
+2. 建议Retargeting 广告组最多创建两组，<strong>以用户访问网站后离开的时间0-60天，60-400天加以区分</strong>。为控制成效，投放display 广告，而非video广告<br>
+3. 建议Similar audience最多创建四组，以不同的优化目标：visit 或conversion，广告创意类型：display或 者video加以区分（不同广告位）<br>
+4. Custom audience In-Market(commerce)，Location 与Contact list 在audience – segment的地方新建后得到。在广告组创建时，选择custom audience，来勾选您要定向的segment，勾选后人群间默认是并集的关系(合并人群，通过点击include设定)，也可以使用narrow down变更为交集(说明文档)</p>
+<p><a target="_blank" rel="noopener" href="https://help.criteo.com/kb/guide/en/about-audiences-0EJNOqUqYu/Steps/842036,1680456,1683200">https://help.criteo.com/kb/guide/en/about-audiences-0EJNOqUqYu/Steps/842036,1680456,1683200</a></p>
+<ul>
+<li>Spend Limit: 一定要设置，单位与ad set保持一致，<strong>日预算</strong> - <strong>金额为广告组日预算之和*150%</strong>，<strong>月预算和lifetime预算，等于广告组预算之和</strong></li>
+</ul>
+<h2 id="Ad-set-Whom-where-how-when"><strong>Ad set(Whom, where, how, when)</strong></h2>
+<ul>
+<li>How – 设置您的有效目标，出价方式和预算，其中Media type – 选择您要展示</li>
+</ul>
+<p>的媒体类型，展示类广告还是视频类广告</p>
+<ul>
+<li>Whom – audience 选择您要定向的受众类型</li>
+<li>Where – 设置您的广告展示条件与环境，包括国家，设备，上下文（Context），媒体列表（palcement）等</li>
+<li>When – 设定您要开启广告的时间/或者不设置，手动开启/暂停即可</li>
+<li>Tracking – 如果不需要区分广告样式类型，</li>
+</ul>
+<h2 id="Ads-广告创意"><strong>Ads 广告创意</strong></h2>
+<ul>
+<li>一个展示类的ad set下面可以跑多组不同类型的ads，测试其效果。</li>
+<li>Media type为video的广告，也可以跑多组不同的video素材，测试素材效果。</li>
+<li>可以在<strong>creative library中提前创建好</strong>后，在ad set 创建流程中<strong>复用创建好的ads</strong>，</li>
+</ul>
+<p>也可以在creative library<strong>点击launch</strong>，将<strong>ads关联到ad set</strong></p>
+<h1>不同投放阶段调整优化内容</h1>
+<p><img src="/2024/01/01/Criteo%E4%B8%8D%E5%90%8C%E6%8A%95%E6%94%BE%E7%9B%AE%E6%A0%87%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88%2089c363702fbc46ef8fb2e0dc146a2a95/Untitled%202.png" srcset="/img/loading.gif" lazyload alt="Untitled"></p>
+<p><img src="/2024/01/01/Criteo%E4%B8%8D%E5%90%8C%E6%8A%95%E6%94%BE%E7%9B%AE%E6%A0%87%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88%2089c363702fbc46ef8fb2e0dc146a2a95/Untitled%203.png" srcset="/img/loading.gif" lazyload alt="Untitled"></p>
+<h1>常用术语</h1>
+<table>
+<thead>
+<tr>
+<th>Advertiser value</th>
+<th>The revenue generated by each product, considering margin (if provided in your product catalog).</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Assisted sales</td>
+<td>The number of sales a given ad set/campaign contributed to (generated displays/clicks) but was not the last touchpoint. The higher the number, the more important is to continue to run that ad set/ campaign to continue to drive increased performance.</td>
+<td></td>
+</tr>
+<tr>
+<td>Assists per sale</td>
+<td>The ratio between the assisted sales that ad set/campaign contributed to vs the sales attributed to that ad set/campaign.</td>
+<td></td>
+</tr>
+<tr>
+<td>App installs</td>
+<td>The number of installations of your app.</td>
+<td></td>
+</tr>
+<tr>
+<td>Audience</td>
+<td>Potential users who could be served an ad.</td>
+<td></td>
+</tr>
+<tr>
+<td>Average cart</td>
+<td>Average revenue generated by a sale.</td>
+<td></td>
+</tr>
+<tr>
+<td>Bounce rate</td>
+<td>The proportion of website visitors leaving after only viewing one page.</td>
+<td></td>
+</tr>
+<tr>
+<td>Clicks</td>
+<td>The number of clicks driven by the ads.</td>
+<td></td>
+</tr>
+<tr>
+<td>Cost</td>
+<td>The overall cost of your ads or video ads.</td>
+<td></td>
+</tr>
+<tr>
+<td>COS (Cost of sale)</td>
+<td>The ratio between the cost generated by the ad set(s) vs. the revenue generated by the sales, figured as a percentage.</td>
+<td></td>
+</tr>
+<tr>
+<td>COV (Cost of advertiser value)</td>
+<td>The ratio between the advertiser value generated by the sales vs. the cost generated by the ad set(s), figured as a percentage.</td>
+<td></td>
+</tr>
+<tr>
+<td>Cost per install</td>
+<td>The amount of money it cost to get one customer’s sale after they’ve installed your app.</td>
+<td></td>
+</tr>
+<tr>
+<td>CPO (Cost per order)</td>
+<td>The amount of money that needs to be spent to get one order or transaction.</td>
+<td></td>
+</tr>
+<tr>
+<td>CPV (Cost per Visit)</td>
+<td>The amount of money spent to get one visit on your website</td>
+<td></td>
+</tr>
+<tr>
+<td>CPOV (Cost per store visit)</td>
+<td>The amount of money spent to get one visit on your physical store</td>
+<td></td>
+</tr>
+<tr>
+<td>CPM (Cost per mille)</td>
+<td>The amount of money spent per thousand displays, available for CPM-based ad sets only.</td>
+<td></td>
+</tr>
+<tr>
+<td>CTR (Click through rate)</td>
+<td>The rate or frequency at which users click through to a landing page from an ad.</td>
+<td></td>
+</tr>
+<tr>
+<td>CVR (Conversion rate)</td>
+<td>The percentage of completed purchases compared to the clicks that occurred.</td>
+<td></td>
+</tr>
+<tr>
+<td>Displays</td>
+<td>The number of times your ads have been shown on a screen.</td>
+<td></td>
+</tr>
+<tr>
+<td>eCPM (Effective cost per mille)</td>
+<td>The amount of money spent per thousand displays.</td>
+<td></td>
+</tr>
+<tr>
+<td>Exposed users</td>
+<td>The number of users who have been served an ad.</td>
+<td></td>
+</tr>
+<tr>
+<td>Install rate</td>
+<td>The percentage of completed app installs compared to the number of clicks.</td>
+<td></td>
+</tr>
+<tr>
+<td>Omnichannel ROAS (Return on Ad Spend)</td>
+<td>The ratio between revenue generated ( both online and offline) and the cost.</td>
+<td></td>
+</tr>
+<tr>
+<td>Omnichannel revenue</td>
+<td>The revenue generated by online and offline sales.</td>
+<td></td>
+</tr>
+<tr>
+<td>Omnichannel sales</td>
+<td>The number of online and offline transactions or conversions resulting from Criteo ads.</td>
+<td></td>
+</tr>
+<tr>
+<td>Potential displays</td>
+<td>The number of display opportunities, or the number of bid requests received.</td>
+<td></td>
+</tr>
+<tr>
+<td>Post-install sales</td>
+<td>The number of times a customer has bought something from you after they’ve installed your app.</td>
+<td></td>
+</tr>
+<tr>
+<td>Post-install CVR (Conversion rate)</td>
+<td>The percentage of users that bought something from you after they’ve installed your app.</td>
+<td></td>
+</tr>
+<tr>
+<td>Post-install COS (Cost of sale)</td>
+<td>The amount of money it cost to get one customer’s sale after they’ve installed your app.</td>
+<td></td>
+</tr>
+<tr>
+<td>Post-install order value</td>
+<td>The average value of a customer’s order after they’ve installed your app.</td>
+<td></td>
+</tr>
+<tr>
+<td>Post-install CPO (Cost per order)</td>
+<td>The amount of money it cost to get one customer’s order after they’ve installed your app.</td>
+<td></td>
+</tr>
+<tr>
+<td>Post-install ROAS (Return on Ad Spend)</td>
+<td>The ratio between the revenue generated and how much you spent to get customers to install your app.</td>
+<td></td>
+</tr>
+<tr>
+<td>Qualified visits</td>
+<td>The number of users on the target website or app for which at least two events or one sale event occurred within the hour following a click.</td>
+<td></td>
+</tr>
+<tr>
+<td>Reach（曝光，触达率）</td>
+<td>Share of potential users who have been served an ad.</td>
+<td>Exposed</td>
+</tr>
+<tr>
+<td>users/Audience</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Revenue</td>
+<td>The number of sales one of your campaigns or ad sets contributed to (with clicks or displays) on your site or app.</td>
+<td></td>
+</tr>
+<tr>
+<td>ROAS (Return on ad spend)</td>
+<td>The ratio between the revenue generated and the cost.</td>
+<td></td>
+</tr>
+<tr>
+<td>Sales</td>
+<td>The number of completed e-commerce transactions or purchases.</td>
+<td></td>
+</tr>
+<tr>
+<td>Sales all</td>
+<td>Sales on your website enriched with the estimated performance of non-observable users = it is a modelled metric (all metrics suffixed by “all” are modelled ones).</td>
+<td></td>
+</tr>
+<tr>
+<td>Store ROAS (Return on Ad Spend)</td>
+<td>Store Return on Ad Spend. The ratio between the revenue generated in-store and the cost.</td>
+<td></td>
+</tr>
+<tr>
+<td>Store revenue</td>
+<td>The amount of revenue generated by in-store sales.</td>
+<td></td>
+</tr>
+<tr>
+<td>Store sales</td>
+<td>The number of completed in-store transactions or purchases.</td>
+<td></td>
+</tr>
+<tr>
+<td>Untracked displays</td>
+<td>This is the number of untracked displays. Some displays cannot be tracked because of the display environment (for instance. native banners).</td>
+<td></td>
+</tr>
+<tr>
+<td>Unviewed displays</td>
+<td>The number of ads that have not been viewed. A display that doesn’t meet the viewed display criteria is considered unviewed.</td>
+<td></td>
+</tr>
+<tr>
+<td>Viewed displays</td>
+<td>The number of times at least 50% of the ad appeared for at least 1 second for ads and 2 seconds for video ads, once started.</td>
+<td></td>
+</tr>
+<tr>
+<td>Win rate</td>
+<td>The number of impressions won divided by the total number of impressions that were bid on.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1>参考链接：</h1>
+<p><a target="_blank" rel="noopener" href="https://help.criteo.com/kb/guide/en/full-list-of-available-metrics-2K8fTdtDS7/Steps/775874,2417518">https://help.criteo.com/kb/guide/en/full-list-of-available-metrics-2K8fTdtDS7/Steps/775874,2417518</a></p>
+<p><a target="_blank" rel="noopener" href="https://help.criteo.com/kb/guide/en/about-audiences-0EJNOqUqYu/Steps/842036,1680456,1683200">https://help.criteo.com/kb/guide/en/about-audiences-0EJNOqUqYu/Steps/842036,1680456,1683200</a></p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%B9%BF%E5%91%8A%E6%B8%A0%E9%81%93/" class="category-chain-item">广告渠道</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E5%B9%BF%E5%91%8A%E6%B8%A0%E9%81%93/%E6%B8%A0%E9%81%93%E6%8A%95%E6%94%BE/" class="category-chain-item">渠道投放</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E5%B9%BF%E5%91%8A%E6%B8%A0%E9%81%93/%E6%B8%A0%E9%81%93%E6%8A%95%E6%94%BE/Criteo-ads/" class="category-chain-item">Criteo ads</a>
+  
+  
+
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E5%B9%BF%E5%91%8A%E6%8A%95%E6%94%BE/">#广告投放</a>
+      
+        <a href="/tags/Criteo-ads/">#Criteo ads</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>Criteo Ads账户目标选择及搭建方案</div>
+      <div>http://example.com/2024/01/01/Criteo不同投放目标使用方案 89c363702fbc46ef8fb2e0dc146a2a95/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>Author</div>
+          <div>Mireia</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>Posted on</div>
+          <div>January 1, 2024</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>Licensed under</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2024/01/01/Criteo%E5%90%8E%E5%8F%B0%E6%95%B0%E6%8D%AE%E4%B8%8EGA%E6%95%B0%E6%8D%AE%E5%B7%AE%E5%BC%82%E5%A4%A7%20-%20%E6%8E%92%E6%9F%A5%E4%B8%8E%E4%BC%98%E5%8C%96%2056f142f25f894273a1b6cdaabc5d2ec8/" title="Criteo后台数据与Google Analytics数据对齐">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Criteo后台数据与Google Analytics数据对齐</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2023/12/26/Google%20Ads-%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81Identity%20verification%E4%BF%AE%E6%94%B9%20daf12fd12acf47faa1247c03b289163a/" title="Google Ads-身份验证Identity verification修改">
+                        <span class="hidden-mobile">Google Ads-身份验证Identity verification修改</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  <article id="comments" lazyload>
+    
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"8bBY3izjOb5ReNKbe8diKqrv-gzGzoHsz","appKey":"kWJqHkTSqgmpmoJxKqjPG0jq","path":"window.location.pathname","placeholder":"说点什么","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":true,"recordIP":true,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+  </article>
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;Table of Contents</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        Views: 
+        <span id="busuanzi_value_site_pv"></span>
+        
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        Visitors: 
+        <span id="busuanzi_value_site_uv"></span>
+        
+      </span>
+    
+    
+  
+</div>
+
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
+</body>
+</html>
