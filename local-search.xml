@@ -179,6 +179,49 @@
   
   
   <entry>
+    <title>Criteo后台数据与Google Analytics数据对齐</title>
+    <link href="/2023/12/22/Criteo%E5%90%8E%E5%8F%B0%E6%95%B0%E6%8D%AE%E4%B8%8EGA%E6%95%B0%E6%8D%AE%E5%B7%AE%E5%BC%82%E5%A4%A7%20-%20%E6%8E%92%E6%9F%A5%E4%B8%8E%E4%BC%98%E5%8C%96%2056f142f25f894273a1b6cdaabc5d2ec8/"/>
+    <url>/2023/12/22/Criteo%E5%90%8E%E5%8F%B0%E6%95%B0%E6%8D%AE%E4%B8%8EGA%E6%95%B0%E6%8D%AE%E5%B7%AE%E5%BC%82%E5%A4%A7%20-%20%E6%8E%92%E6%9F%A5%E4%B8%8E%E4%BC%98%E5%8C%96%2056f142f25f894273a1b6cdaabc5d2ec8/</url>
+    
+    <content type="html"><![CDATA[<h1>Criteo后台数据与Google Analytics数据对齐</h1><p>参考support center 文章 - <a href="https://help.criteo.com/kb/guide/en/last-click-attribution-best-practices-8Q0zBuyZVb/Steps/775788">Last-click attribution best practices</a></p><h1>背景介绍</h1><p>如果您在使用Google Analytics作为数据报告的平台，Criteo 平台与您的GA数据报告有可能产生**&gt;30%**以上的数据差异。</p><h1>排查数据差异 - 自查步骤</h1><p>可通过以下4点减少数据差异：</p><ol><li>确保两个平台拉出的报告时区，时间范围一致</li><li>GA不同的报告可以使用多种归因模型，请在数据差异排查时，告知使用的归因模型。Criteo默认归因为post click 30 days，post view 1 day，即点击过criteo 广告后30天内产生的转化会被归因，或看过广告1天产生的转化，会被归因。</li><li>确保您的ad set 层级，或者ads层级的tracking url 设置正确</li><li>确保在pixel中传的转化是唯一的（不会出现重复订单的情况）</li></ol><h1>Criteo数据排查流程</h1><p>如果您的GA数据与criteo后台差异超过30%，可通过上面罗列的四种办法进行自查。自查后，如果都没有问题，可以提供以下信息给到支持团队，做进一步排查：</p><ol><li>列出您目前设定的tracking url，信息包括：tracking url的链接，您设定的层级（ad set还是ads）；</li><li>完整的GA数据截图，包括选取的数据时间范围，您看报告的维度（medium, source, campaign…等）</li><li>GA报告数据与criteo数据对比报告，请按天(by day)罗列指标：<ol><li>GA：会话数，订单量，订单金额</li><li>Criteo：点击量(click)，访问量(visit)，订单量(sales)，订单金额(revenue)。</li></ol></li></ol><h1>开启last-click attribution优化的流程与注意事项</h1><h2 id="开启last-click归因的目的："><strong>开启last-click归因的目的：</strong></h2><p>解决Criteo后台与<strong>客户使用last-click attribution</strong>下订单数量差异的问题。</p><h2 id="开启last-click归因的注意事项："><strong>开启last-click归因的注意事项：</strong></h2><p>开启last-click归因并不意味着两个平台的数据会完全相同。Criteo会通过utm参数将最近的criteo渠道带来的订单做归因，但由于Criteo无法获取完整渠道的数据，所以最终归因到的不一定是GA判定的last click订单。</p><p>以下情景也会影响到归因结果：</p><ol><li>Criteo last-click 归因窗口期最长为30天，google最长可以到180天</li><li>Criteo数据处理延迟是12小时，google会在24-48小时</li></ol><h2 id="账户需要符合的条件">账户需要符合的条件</h2><ol><li>使用utm 跟踪链接，每个渠道有他自己utm_source的名称。比如：utm_source= ‘google-search’, utm_source=‘Criteo’,…</li><li>账户有足够的订单量，能够满足引擎学习：<ol><li>优化visit，无限制</li><li>优化conversion，需要过去21天有21个订单</li><li>优化revenue，需要过去21天有84个订单</li></ol></li><li>Last click ratio需大于或等于50%</li></ol><p>Last click ratio计算公式为：#Last-Click sales/ #Post-Click sales</p><h2 id="开启流程">开启流程</h2><ol><li>完成以上数据排查后，账户符合开启last-click优化条件，确认需要开启last-click优化。</li><li><strong>您的网站需要设置referral policy支持Criteo 处理utm，具体步骤请参考<a href="https://help.criteo.com/kb/guide/en/last-click-attribution-best-practices-8Q0zBuyZVb/Steps/775788">support center</a>中Your website’s referral policy 部分的内容。</strong></li><li>在您设置完毕后，请联系你的客户经理开启last-click优化功能。</li><li>开启后，您在Criteo后台看到的订单会变少，这时需要观察：<ol><li>ROI变动情况</li><li>GA订单量是否有增加</li><li>双方后台订单量差距是否在减少</li></ol></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>广告渠道</category>
+      
+      <category>渠道投放</category>
+      
+      <category>转化追踪&amp;API对接</category>
+      
+      <category>转化追踪</category>
+      
+      <category>Criteo ads</category>
+      
+      <category>Google Analytics</category>
+      
+      <category>三方衡量工具对接</category>
+      
+      <category>Google Analytics</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>广告投放</tag>
+      
+      <tag>Criteo ads</tag>
+      
+      <tag>数据对齐</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>电动自行车行业出海</title>
     <link href="/2023/10/22/%E7%94%B5%E5%8A%A8%E8%87%AA%E8%A1%8C%E8%BD%A6%E8%A1%8C%E4%B8%9A%E5%87%BA%E6%B5%B7%E5%88%86%E4%BA%AB%202e9aad2e036c4701913792a1d04ef8c0/"/>
     <url>/2023/10/22/%E7%94%B5%E5%8A%A8%E8%87%AA%E8%A1%8C%E8%BD%A6%E8%A1%8C%E4%B8%9A%E5%87%BA%E6%B5%B7%E5%88%86%E4%BA%AB%202e9aad2e036c4701913792a1d04ef8c0/</url>
