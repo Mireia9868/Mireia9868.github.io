@@ -78,6 +78,37 @@
   
   
   <entry>
+    <title>Tools-SimilarWeb面板功能介绍</title>
+    <link href="/2024/01/01/%E4%BD%BF%E7%94%A8SimilarWeb%E5%88%86%E6%9E%90%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%201637ba7d8da24e30aef7d99093d72685/"/>
+    <url>/2024/01/01/%E4%BD%BF%E7%94%A8SimilarWeb%E5%88%86%E6%9E%90%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%201637ba7d8da24e30aef7d99093d72685/</url>
+    
+    <content type="html"><![CDATA[<h1>使用SimilarWeb分析网站数据</h1><h2 id="1-网站概览">1. 网站概览</h2><p>登陆后进入网站概览页面，该页面提供了一个简单的概览报告，展示了该网站的总访问量、平均每天访问量、页面访问量、平均每天页面访问量、平均页面停留时间、跳出率等关键性能指标（KPI）。</p><ol><li><p>流量和互动：从这里可以了解网站当前流量，通过MAU判断网站规模和变化趋势</p></li><li><p>行业排名：快速找到<strong>头部产品或者同类网站</strong>，作为参照基准</p><p>数据总览：</p><p><img src="/2024/01/01/%E4%BD%BF%E7%94%A8SimilarWeb%E5%88%86%E6%9E%90%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%201637ba7d8da24e30aef7d99093d72685/Untitled.png" alt="Untitled"></p><p>行业排名：</p><p>进入后上方可以切换行业</p><p><img src="/2024/01/01/%E4%BD%BF%E7%94%A8SimilarWeb%E5%88%86%E6%9E%90%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%201637ba7d8da24e30aef7d99093d72685/Untitled%201.png" alt="Untitled"></p></li></ol><h2 id="2-参与度">2. 参与度</h2><p>更细维度访客参与度的数据，这些数据一般直观反映了当前站点质量。</p><p>尤其是跳出率，跳出是指用户在访问一个页面后迅速离开，没有访问其他页面，更没有其他操作。</p><p>一般来说；56% 到 70% 的跳出率偏高，41% 到 55% 为平均水平。最佳跳出率应在 26% 到 40% 的范围内。以此为参照，可以对客户网站质量有一定判断。</p><p><img src="/2024/01/01/%E4%BD%BF%E7%94%A8SimilarWeb%E5%88%86%E6%9E%90%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%201637ba7d8da24e30aef7d99093d72685/Untitled%202.png" alt="Untitled"></p><h2 id="3-地区-流量来源">3.地区 &amp; 流量来源</h2><p>通过该标签页可以看到站点各国流量占比和排名变化</p><p>判断站点在哪些国家有<strong>流量基础</strong>，有针对性进行推广，或者向客户推荐在该国家有优势的渠道</p><p><img src="/2024/01/01/%E4%BD%BF%E7%94%A8SimilarWeb%E5%88%86%E6%9E%90%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%201637ba7d8da24e30aef7d99093d72685/Untitled%203.png" alt="Untitled"></p><p><img src="/2024/01/01/%E4%BD%BF%E7%94%A8SimilarWeb%E5%88%86%E6%9E%90%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%201637ba7d8da24e30aef7d99093d72685/Untitled%204.png" alt="Untitled"></p><h2 id="4-流量来源">4. 流量来源</h2><p>流量来源渠道、及市场上平均的流量分布，通过对比网站与行业平均水平/竞品的流量来源，了解当前客户当前有哪些渠道流量可以进行拓展</p><ol><li>图中网站的主要来源是<strong>直接链接</strong>和<strong>自然搜索</strong>,说明站点本身有一定自然量，且SEO质量也很好</li><li>通过对比竞品（或者市场平均水平）的流量来源，就可以探索网站增量的方向</li><li>这里点击<strong>完整概况</strong>，可以看到客户近期在各渠道的整体流量趋势，有针对性的推荐广告产品</li><li>下方可以看到在各渠道的详细构成，</li></ol><p><img src="/2024/01/01/%E4%BD%BF%E7%94%A8SimilarWeb%E5%88%86%E6%9E%90%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%201637ba7d8da24e30aef7d99093d72685/Untitled%205.png" alt="Untitled"></p><p><img src="/2024/01/01/%E4%BD%BF%E7%94%A8SimilarWeb%E5%88%86%E6%9E%90%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%201637ba7d8da24e30aef7d99093d72685/Untitled%206.png" alt="Untitled"></p><p><img src="/2024/01/01/%E4%BD%BF%E7%94%A8SimilarWeb%E5%88%86%E6%9E%90%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%201637ba7d8da24e30aef7d99093d72685/Untitled%207.png" alt="Untitled"></p><p><img src="/2024/01/01/%E4%BD%BF%E7%94%A8SimilarWeb%E5%88%86%E6%9E%90%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%201637ba7d8da24e30aef7d99093d72685/Untitled%208.png" alt="Untitled"></p><p><img src="/2024/01/01/%E4%BD%BF%E7%94%A8SimilarWeb%E5%88%86%E6%9E%90%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%201637ba7d8da24e30aef7d99093d72685/Untitled%209.png" alt="Untitled"></p><h2 id="5-竞争对手分析">5. 竞争对手分析</h2><p>对比和分析不同网站之间的竞争情况。</p><p>点击域名右侧“比较”添加竞品，similarweb当前可以支持最多添加<strong>四个竞对域名</strong>，</p><p>添加完成后，可以在上方功能基础上对数据进行多维度对比，通过对比网站与竞品差距，可以一定程度上促成客户行动：</p><p><img src="/2024/01/01/%E4%BD%BF%E7%94%A8SimilarWeb%E5%88%86%E6%9E%90%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%201637ba7d8da24e30aef7d99093d72685/Untitled%2010.png" alt="Untitled"></p><h2 id="6-下载Similarweb插件">6.下载Similarweb插件</h2><p>推荐下载一个Similarweb的插件，这样在客户网站或者竞品的时候,点击插件就能看到近期网站流量数据以及相似的网站，对客户体量及目标国家有比较直观的了解</p><p><img src="/2024/01/01/%E4%BD%BF%E7%94%A8SimilarWeb%E5%88%86%E6%9E%90%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%201637ba7d8da24e30aef7d99093d72685/Untitled%2011.png" alt="Untitled"></p><p><img src="/2024/01/01/%E4%BD%BF%E7%94%A8SimilarWeb%E5%88%86%E6%9E%90%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%201637ba7d8da24e30aef7d99093d72685/Untitled%2012.png" alt="Untitled"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工具网址分享</category>
+      
+      <category>Tools</category>
+      
+      <category>SimilarWeb</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Tools</tag>
+      
+      <tag>SimilarWeb，竞品分析</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Google Ads-身份验证Identity verification修改</title>
     <link href="/2023/12/26/Google%20Ads-%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81Identity%20verification%E4%BF%AE%E6%94%B9%20daf12fd12acf47faa1247c03b289163a/"/>
     <url>/2023/12/26/Google%20Ads-%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81Identity%20verification%E4%BF%AE%E6%94%B9%20daf12fd12acf47faa1247c03b289163a/</url>
