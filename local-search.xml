@@ -56,8 +56,6 @@
       
       <category>Criteo ads</category>
       
-      <category>Google Analytics</category>
-      
       <category>三方衡量工具对接</category>
       
       <category>Google Analytics</category>
@@ -614,9 +612,17 @@
       
       <category>渠道投放</category>
       
+      <category>转化追踪&amp;API对接</category>
+      
+      <category>API对接</category>
+      
+      <category>获取Token</category>
+      
       <category>Google Ads</category>
       
       <category>API</category>
+      
+      <category>Google Ads</category>
       
     </categories>
     
