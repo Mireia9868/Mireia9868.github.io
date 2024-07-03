@@ -1,0 +1,2 @@
+hexo.extend.injector.register('head_begin', '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2269516311541291"
+     crossorigin="anonymous"></script>', 'default');
