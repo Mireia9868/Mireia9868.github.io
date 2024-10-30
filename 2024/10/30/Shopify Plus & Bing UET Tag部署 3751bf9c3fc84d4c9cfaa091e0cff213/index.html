@@ -1,0 +1,805 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/Mireia%20Sem_transparent.png">
+  <link rel="icon" href="/img/Mireia%20Sem_transparent.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Mireia">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="Shopify Plus &amp; Bing UET Tag部署 Mireia  代码升级背景：  Shopify plus更新后，原check out-additional Code位置不能再添加代码，原安装付费代码直接失效。直接影响Google Facebook，Bing等营销渠道的数据抓取及后台转化数据呈现。下方为最新的Shopify升级后bing转化追踪解决方案 基础代码 *此步骤建立在">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Shopify Plus &amp; Bing UET Tag部署">
+<meta property="og:url" content="http://example.com/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/index.html">
+<meta property="og:site_name" content="Mireia SEM Blog">
+<meta property="og:description" content="Shopify Plus &amp; Bing UET Tag部署 Mireia  代码升级背景：  Shopify plus更新后，原check out-additional Code位置不能再添加代码，原安装付费代码直接失效。直接影响Google Facebook，Bing等营销渠道的数据抓取及后台转化数据呈现。下方为最新的Shopify升级后bing转化追踪解决方案 基础代码 *此步骤建立在">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image.png">
+<meta property="og:image" content="http://example.com/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%201.png">
+<meta property="og:image" content="http://example.com/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%202.png">
+<meta property="og:image" content="http://example.com/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%203.png">
+<meta property="og:image" content="http://example.com/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%204.png">
+<meta property="og:image" content="http://example.com/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%205.png">
+<meta property="og:image" content="http://example.com/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%206.png">
+<meta property="og:image" content="http://example.com/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%207.png">
+<meta property="og:image" content="http://example.com/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%208.png">
+<meta property="og:image" content="http://example.com/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%209.png">
+<meta property="article:published_time" content="2024-10-29T16:04:33.000Z">
+<meta property="article:modified_time" content="2024-10-30T15:30:46.535Z">
+<meta property="article:author" content="Mireia">
+<meta property="article:tag" content="Bing ads">
+<meta property="article:tag" content="UET tag">
+<meta property="article:tag" content="Event tracking">
+<meta property="article:tag" content="Shopify Plus">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image.png">
+  
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
+  
+  
+  <title>Shopify Plus &amp; Bing UET Tag部署 - Mireia SEM Blog</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Mireia Sem Blog</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                Home
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                Archives
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                Categories
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                Tags
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                About
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="Shopify Plus &amp; Bing UET Tag部署"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-10-30 00:04" pubdate>
+          October 30, 2024 am
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          2.1k words
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          18 mins
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">Shopify Plus &amp; Bing UET Tag部署</h1>
+            
+              <p class="note note-info">
+                
+                  
+                    Last updated on October 30, 2024 pm
+                  
+                
+              </p>
+            
+            
+              <div class="markdown-body">
+                
+                <h1>Shopify Plus &amp; Bing UET Tag部署</h1>
+<p>Mireia</p>
+<blockquote>
+<p>代码升级背景：</p>
+</blockquote>
+<p>Shopify plus更新后，原check out-additional Code位置不能再添加代码，原安装付费代码直接失效。直接影响Google Facebook，Bing等营销渠道的数据抓取及后台转化数据呈现。下方为最新的Shopify升级后bing转化追踪解决方案</p>
+<h1>基础代码</h1>
+<p>*此步骤建立在目前未完成基础代码创建的基础上，如已创建tag及基础代码事件，可以直接跳转至后续付费代码升级步骤</p>
+<h2 id="Bing广告后台-创建UET-tag">Bing广告后台-创建UET tag</h2>
+<p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image.png" srcset="/img/loading.gif" lazyload alt="image.png"></p>
+<p>2.开始tag创建</p>
+<p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%201.png" srcset="/img/loading.gif" lazyload alt="image.png"></p>
+<p>3.点击平台创建-选择Shopify-并复制生成code</p>
+<p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%202.png" srcset="/img/loading.gif" lazyload alt="image.png"></p>
+<p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%203.png" srcset="/img/loading.gif" lazyload alt="image.png"></p>
+<h2 id="Shopify后台-安装基础Code">Shopify后台-安装基础Code</h2>
+<p><strong>进入Shopify后台Online Store</strong>, 选择 <strong>Themes</strong></p>
+<ol>
+<li>将已粘贴代码粘贴在 之前</li>
+</ol>
+<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs jsx">&lt;script&gt;(<span class="hljs-keyword">function</span>(<span class="hljs-params">w,d,t,r,u</span>)&#123;<span class="hljs-keyword">var</span> f,n,i;w[u]=w[u]||[],f=<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)&#123;<span class="hljs-keyword">var</span> o=&#123;<span class="hljs-attr">ti</span>:<span class="hljs-string">&quot;tag id&quot;</span>, <span class="hljs-attr">tm</span>:<span class="hljs-string">&quot;shpfy_ui&quot;</span>, <span class="hljs-attr">enableAutoSpaTracking</span>: <span class="hljs-literal">true</span>&#125;;o.<span class="hljs-property">q</span>=w[u],w[u]=<span class="hljs-keyword">new</span> <span class="hljs-title function_">UET</span>(o),w[u].<span class="hljs-title function_">push</span>(<span class="hljs-string">&quot;pageLoad&quot;</span>)&#125;,n=d.<span class="hljs-title function_">createElement</span>(t),n.<span class="hljs-property">src</span>=r,n.<span class="hljs-property">async</span>=<span class="hljs-number">1</span>,n.<span class="hljs-property">onload</span>=n.<span class="hljs-property">onreadystatechange</span>=<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)&#123;<span class="hljs-keyword">var</span> s=<span class="hljs-variable language_">this</span>.<span class="hljs-property">readyState</span>;s&amp;&amp;s!==<span class="hljs-string">&quot;loaded&quot;</span>&amp;&amp;s!==<span class="hljs-string">&quot;complete&quot;</span>||(<span class="hljs-title function_">f</span>(),n.<span class="hljs-property">onload</span>=n.<span class="hljs-property">onreadystatechange</span>=<span class="hljs-literal">null</span>)&#125;,i=d.<span class="hljs-title function_">getElementsByTagName</span>(t)[<span class="hljs-number">0</span>],i.<span class="hljs-property">parentNode</span>.<span class="hljs-title function_">insertBefore</span>(n,i)&#125;)(<span class="hljs-variable language_">window</span>,<span class="hljs-variable language_">document</span>,<span class="hljs-string">&quot;script&quot;</span>,<span class="hljs-string">&quot;[//bat.bing.com/bat.js&quot;</span>,<span class="hljs-string">&quot;uetq](https://bat.bing.com/bat.js%22,%22uetq)&quot;</span>);&lt;/script&gt;<br></code></pre></td></tr></table></figure>
+<h1>付费代码</h1>
+<h2 id="Bing广告后台-创建转化目标："><strong>Bing广告后台-创建转化目标：</strong></h2>
+<p>1.进入conversion- conversion goal页面-选择创建新的conversion事件</p>
+<p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%204.png" srcset="/img/loading.gif" lazyload alt="image.png"></p>
+<ol>
+<li>Conversion Goal Type
+<ol>
+<li>对事件进行命名</li>
+<li>选择Goal type为事件</li>
+</ol>
+</li>
+</ol>
+<p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%205.png" srcset="/img/loading.gif" lazyload alt="image.png"></p>
+<ol>
+<li>Conversion Goal Detail ：I don’t want to use enhaced conversion</li>
+</ol>
+<p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%206.png" srcset="/img/loading.gif" lazyload alt="image.png"></p>
+<p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%207.png" srcset="/img/loading.gif" lazyload alt="image.png"></p>
+<h2 id="Shopify安装付费代码">Shopify安装付费代码</h2>
+<p>点击设置-客户时间（customer event）添加付费代码</p>
+<p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%208.png" srcset="/img/loading.gif" lazyload alt="image.png"></p>
+<p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%209.png" srcset="/img/loading.gif" lazyload alt="image.png"></p>
+<p>*注意替换tag id</p>
+<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs jsx">(<span class="hljs-keyword">function</span>(<span class="hljs-params">w,d,t,r,u</span>)&#123;<span class="hljs-keyword">var</span> f,n,i;w[u]=w[u]||[],f=<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)&#123;<span class="hljs-keyword">var</span> o=&#123;<span class="hljs-attr">ti</span>:<span class="hljs-string">&quot;tag id&quot;</span>, <span class="hljs-attr">enableAutoSpaTracking</span>: <span class="hljs-literal">true</span>&#125;;o.<span class="hljs-property">q</span>=w[u],w[u]=<span class="hljs-keyword">new</span> <span class="hljs-title function_">UET</span>(o),w[u].<span class="hljs-title function_">push</span>(<span class="hljs-string">&quot;pageLoad&quot;</span>)&#125;,n=d.<span class="hljs-title function_">createElement</span>(t),n.<span class="hljs-property">src</span>=r,n.<span class="hljs-property">async</span>=<span class="hljs-number">1</span>,n.<span class="hljs-property">onload</span>=n.<span class="hljs-property">onreadystatechange</span>=<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)&#123;<span class="hljs-keyword">var</span> s=<span class="hljs-variable language_">this</span>.<span class="hljs-property">readyState</span>;s&amp;&amp;s!==<span class="hljs-string">&quot;loaded&quot;</span>&amp;&amp;s!==<span class="hljs-string">&quot;complete&quot;</span>||(<span class="hljs-title function_">f</span>(),n.<span class="hljs-property">onload</span>=n.<span class="hljs-property">onreadystatechange</span>=<span class="hljs-literal">null</span>)&#125;,i=d.<span class="hljs-title function_">getElementsByTagName</span>(t)[<span class="hljs-number">0</span>],i.<span class="hljs-property">parentNode</span>.<span class="hljs-title function_">insertBefore</span>(n,i)&#125;)(<span class="hljs-variable language_">window</span>,<span class="hljs-variable language_">document</span>,<span class="hljs-string">&quot;script&quot;</span>,<span class="hljs-string">&quot;//bat.bing.com/bat.js&quot;</span>,<span class="hljs-string">&quot;uetq&quot;</span>);<br><br>analytics.<span class="hljs-title function_">subscribe</span>(<span class="hljs-string">&quot;checkout_completed&quot;</span>, <span class="hljs-function">(<span class="hljs-params">event</span>) =&gt;</span> &#123;<br>  uetq = uetq || [];<br>  uetq.<span class="hljs-title function_">push</span>(<span class="hljs-string">&#x27;event&#x27;</span>,<span class="hljs-string">&#x27;purchase&#x27;</span>,<br>    &#123;<br>        <span class="hljs-string">&#x27;revenue_value&#x27;</span>: event.<span class="hljs-property">data</span>.<span class="hljs-property">checkout</span>.<span class="hljs-property">totalPrice</span>.<span class="hljs-property">amount</span>,<br>      <span class="hljs-string">&#x27;currency&#x27;</span> : event.<span class="hljs-property">data</span>.<span class="hljs-property">checkout</span>.<span class="hljs-property">currencyCode</span><br>    &#125;);<br>  <br>&#125;);<br></code></pre></td></tr></table></figure>
+<p>点击上方save，然后点击</p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E8%BD%AC%E5%8C%96%E8%BF%BD%E8%B8%AA-API%E5%AF%B9%E6%8E%A5/" class="category-chain-item">转化追踪&amp;API对接</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E8%BD%AC%E5%8C%96%E8%BF%BD%E8%B8%AA-API%E5%AF%B9%E6%8E%A5/%E8%BD%AC%E5%8C%96%E8%BF%BD%E8%B8%AA/" class="category-chain-item">转化追踪</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E8%BD%AC%E5%8C%96%E8%BF%BD%E8%B8%AA-API%E5%AF%B9%E6%8E%A5/%E8%BD%AC%E5%8C%96%E8%BF%BD%E8%B8%AA/%E4%BB%A3%E7%A0%81%E5%AF%B9%E6%8E%A5/" class="category-chain-item">代码对接</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E8%BD%AC%E5%8C%96%E8%BF%BD%E8%B8%AA-API%E5%AF%B9%E6%8E%A5/%E8%BD%AC%E5%8C%96%E8%BF%BD%E8%B8%AA/%E4%BB%A3%E7%A0%81%E5%AF%B9%E6%8E%A5/Shopify-Plus/" class="category-chain-item">Shopify Plus</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E8%BD%AC%E5%8C%96%E8%BF%BD%E8%B8%AA-API%E5%AF%B9%E6%8E%A5/%E8%BD%AC%E5%8C%96%E8%BF%BD%E8%B8%AA/%E4%BB%A3%E7%A0%81%E5%AF%B9%E6%8E%A5/Shopify-Plus/Bing-Ads/" class="category-chain-item">Bing Ads</a>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/Bing-ads/">#Bing ads</a>
+      
+        <a href="/tags/UET-tag/">#UET tag</a>
+      
+        <a href="/tags/Event-tracking/">#Event tracking</a>
+      
+        <a href="/tags/Shopify-Plus/">#Shopify Plus</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>Shopify Plus &amp; Bing UET Tag部署</div>
+      <div>http://example.com/2024/10/30/Shopify Plus &amp; Bing UET Tag部署 3751bf9c3fc84d4c9cfaa091e0cff213/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>Author</div>
+          <div>Mireia</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>Posted on</div>
+          <div>October 30, 2024</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>Updated on</div>
+          <div>October 30, 2024</div>
+        </div>
+      
+      
+        <div class="license-meta-item">
+          <div>Licensed under</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/" title="Bing Ads Accounts注册标准流程">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Bing Ads Accounts注册标准流程</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2024/09/21/%E5%85%A5%E4%BE%B5%E7%BD%91%E7%BB%9C-%E5%B9%BF%E5%91%8A%E6%8B%92%E7%99%BB%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%205d93a1b2b6ae431396df8ee7e9375162/" title="Google Ads-入侵网络-广告拒登解决方法">
+                        <span class="hidden-mobile">Google Ads-入侵网络-广告拒登解决方法</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  <article id="comments" lazyload>
+    
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"8bBY3izjOb5ReNKbe8diKqrv-gzGzoHsz","appKey":"kWJqHkTSqgmpmoJxKqjPG0jq","path":"window.location.pathname","placeholder":"说点什么","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":true,"recordIP":true,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+  </article>
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;Table of Contents</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        Views: 
+        <span id="busuanzi_value_site_pv"></span>
+        
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        Visitors: 
+        <span id="busuanzi_value_site_uv"></span>
+        
+      </span>
+    
+    
+  
+</div>
+
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
+</body>
+</html>

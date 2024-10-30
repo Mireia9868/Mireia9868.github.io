@@ -4,6 +4,113 @@
   
   
   <entry>
+    <title>Tools-SimilarWeb面板功能介绍</title>
+    <link href="/2024/10/30/Microsoft%20Advertising%20Editor-%E5%BE%AE%E8%BD%AF%E5%B9%BF%E5%91%8A%E6%89%B9%E9%87%8F%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7-%E6%89%B9%E9%87%8F%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA%E5%B9%BF%E5%91%8A%E7%BB%93%E6%9E%84%20b10587a90aa94bd0a486f0a25d61531c/"/>
+    <url>/2024/10/30/Microsoft%20Advertising%20Editor-%E5%BE%AE%E8%BD%AF%E5%B9%BF%E5%91%8A%E6%89%B9%E9%87%8F%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7-%E6%89%B9%E9%87%8F%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA%E5%B9%BF%E5%91%8A%E7%BB%93%E6%9E%84%20b10587a90aa94bd0a486f0a25d61531c/</url>
+    
+    <content type="html"><![CDATA[<h1>Microsoft Advertising Editor-微软广告批量编辑工具-批量导入导出广告结构</h1><h1>下载位置：</h1><p><a href="https://about.ads.microsoft.com/en-us/solutions/tools/editor#ws3_windows-link">https://about.ads.microsoft.com/en-us/solutions/tools/editor#ws3_windows-link</a></p><p>作用：批量下载和上传广告结构，批量对各层级广告结构进行调整</p><p>*在点击post上传前调整不会同步到线上账户</p><h1>使用流程示例：</h1><h2 id="批量导入，导出，上传广告结构">批量导入，导出，上传广告结构</h2><ol><li><p>下载和安装Microsoft Advertising Editor首先，您需要在Microsoft Advertising网站上下载Microsoft Advertising Editor。安装程序将会指导您完成安装过程。</p></li><li><p>登录Microsoft Advertising Editor打开Microsoft Advertising Editor并使用您的Microsoft Advertising账户登录。</p></li><li><p>批量导出旧customer下账户结构：</p><p>export-export whole account</p><p><img src="/2024/10/30/Microsoft%20Advertising%20Editor-%E5%BE%AE%E8%BD%AF%E5%B9%BF%E5%91%8A%E6%89%B9%E9%87%8F%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7-%E6%89%B9%E9%87%8F%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA%E5%B9%BF%E5%91%8A%E7%BB%93%E6%9E%84%20b10587a90aa94bd0a486f0a25d61531c/Untitled.png" alt="Untitled"></p><p>*点击export后，广告结构会以CSV文件格式被下载</p></li><li><p>登录新customer，下载好的csv文件，可以直接导入到新customer；</p><ol><li>import-import from a file-microsoft advertising format-选中下载文件即可导入</li></ol><p><img src="/2024/10/30/Microsoft%20Advertising%20Editor-%E5%BE%AE%E8%BD%AF%E5%B9%BF%E5%91%8A%E6%89%B9%E9%87%8F%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7-%E6%89%B9%E9%87%8F%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA%E5%B9%BF%E5%91%8A%E7%BB%93%E6%9E%84%20b10587a90aa94bd0a486f0a25d61531c/Untitled%201.png" alt="Untitled"></p><p><img src="/2024/10/30/Microsoft%20Advertising%20Editor-%E5%BE%AE%E8%BD%AF%E5%B9%BF%E5%91%8A%E6%89%B9%E9%87%8F%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7-%E6%89%B9%E9%87%8F%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA%E5%B9%BF%E5%91%8A%E7%BB%93%E6%9E%84%20b10587a90aa94bd0a486f0a25d61531c/Untitled%202.png" alt="Untitled"></p></li><li><p>点击Post，同步上传内容到线上后台：</p><p><img src="/2024/10/30/Microsoft%20Advertising%20Editor-%E5%BE%AE%E8%BD%AF%E5%B9%BF%E5%91%8A%E6%89%B9%E9%87%8F%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7-%E6%89%B9%E9%87%8F%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA%E5%B9%BF%E5%91%8A%E7%BB%93%E6%9E%84%20b10587a90aa94bd0a486f0a25d61531c/Untitled%203.png" alt="Untitled"></p><p><img src="/2024/10/30/Microsoft%20Advertising%20Editor-%E5%BE%AE%E8%BD%AF%E5%B9%BF%E5%91%8A%E6%89%B9%E9%87%8F%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7-%E6%89%B9%E9%87%8F%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA%E5%B9%BF%E5%91%8A%E7%BB%93%E6%9E%84%20b10587a90aa94bd0a486f0a25d61531c/Untitled%204.png" alt="Untitled"></p></li></ol><p>更多：</p><p>帮助文档：<a href="https://help.ads.microsoft.com/#apex/bae/en/ext14038">https://help.ads.microsoft.com/#apex/bae/en/ext14038</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工具分享</category>
+      
+      <category>账户优化</category>
+      
+      <category>Microsoft Advertising Editor</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工具分享</tag>
+      
+      <tag>账户优化，Microsoft Advertising Editor</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Bing Ads Accounts注册标准流程</title>
+    <link href="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/"/>
+    <url>/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/</url>
+    
+    <content type="html"><![CDATA[<h1>Bing Ads Accounts注册标准流程</h1><h2 id="1-用自己邮箱在ads-microsoft-com创建新账户：">1.用自己邮箱在<a href="http://ads.microsoft.com/">ads.microsoft.com</a>创建新账户：</h2><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled.png" alt="Untitled"></p><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled%201.png" alt="Untitled"></p><h2 id="2-创建Customer，创建账号">2.创建Customer，创建账号</h2><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled%202.png" alt="Untitled"></p><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled%203.png" alt="Untitled"></p><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled%204.png" alt="Untitled"></p><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled%205.png" alt="Untitled"></p><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled%206.png" alt="Untitled"></p><h2 id="3-创建成功后页面">3.创建成功后页面</h2><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled%207.png" alt="Untitled"></p><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled%208.png" alt="Untitled"></p><h2 id="4-关联Account">4.关联Account</h2><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled%209.png" alt="Untitled"></p><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled%2010.png" alt="Untitled"></p><h2 id="5-在被邀请账户接受邀请">5.在被邀请账户接受邀请</h2><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled%2011.png" alt="Untitled"></p><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled%2012.png" alt="Untitled"></p><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled%2013.png" alt="Untitled"></p><h2 id="6-完成接受，关联成功">6.完成接受，关联成功</h2><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled%2014.png" alt="Untitled"></p><p><img src="/2024/10/30/Bing%20Ads%20Accounts%E6%B3%A8%E5%86%8C%E6%A0%87%E5%87%86%E6%B5%81%E7%A8%8B%20c919f0eead9645caab5298fddeb16ae6/Untitled%2015.png" alt="Untitled"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>广告渠道</category>
+      
+      <category>渠道投放</category>
+      
+      <category>Bing ads</category>
+      
+      <category>账户注册</category>
+      
+      <category>投放准备</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Bing ads</tag>
+      
+      <tag>广告投放</tag>
+      
+      <tag>账户注册</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Shopify Plus &amp; Bing UET Tag部署</title>
+    <link href="/2024/10/30/Shopify%20Plus%20&amp;%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/"/>
+    <url>/2024/10/30/Shopify%20Plus%20&amp;%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/</url>
+    
+    <content type="html"><![CDATA[<h1>Shopify Plus &amp; Bing UET Tag部署</h1><p>Mireia</p><blockquote><p>代码升级背景：</p></blockquote><p>Shopify plus更新后，原check out-additional Code位置不能再添加代码，原安装付费代码直接失效。直接影响Google Facebook，Bing等营销渠道的数据抓取及后台转化数据呈现。下方为最新的Shopify升级后bing转化追踪解决方案</p><h1>基础代码</h1><p>*此步骤建立在目前未完成基础代码创建的基础上，如已创建tag及基础代码事件，可以直接跳转至后续付费代码升级步骤</p><h2 id="Bing广告后台-创建UET-tag">Bing广告后台-创建UET tag</h2><p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image.png" alt="image.png"></p><p>2.开始tag创建</p><p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%201.png" alt="image.png"></p><p>3.点击平台创建-选择Shopify-并复制生成code</p><p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%202.png" alt="image.png"></p><p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%203.png" alt="image.png"></p><h2 id="Shopify后台-安装基础Code">Shopify后台-安装基础Code</h2><p><strong>进入Shopify后台Online Store</strong>, 选择 <strong>Themes</strong></p><ol><li>将已粘贴代码粘贴在 之前</li></ol><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs jsx">&lt;script&gt;(<span class="hljs-keyword">function</span>(<span class="hljs-params">w,d,t,r,u</span>)&#123;<span class="hljs-keyword">var</span> f,n,i;w[u]=w[u]||[],f=<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)&#123;<span class="hljs-keyword">var</span> o=&#123;<span class="hljs-attr">ti</span>:<span class="hljs-string">&quot;tag id&quot;</span>, <span class="hljs-attr">tm</span>:<span class="hljs-string">&quot;shpfy_ui&quot;</span>, <span class="hljs-attr">enableAutoSpaTracking</span>: <span class="hljs-literal">true</span>&#125;;o.<span class="hljs-property">q</span>=w[u],w[u]=<span class="hljs-keyword">new</span> <span class="hljs-title function_">UET</span>(o),w[u].<span class="hljs-title function_">push</span>(<span class="hljs-string">&quot;pageLoad&quot;</span>)&#125;,n=d.<span class="hljs-title function_">createElement</span>(t),n.<span class="hljs-property">src</span>=r,n.<span class="hljs-property">async</span>=<span class="hljs-number">1</span>,n.<span class="hljs-property">onload</span>=n.<span class="hljs-property">onreadystatechange</span>=<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)&#123;<span class="hljs-keyword">var</span> s=<span class="hljs-variable language_">this</span>.<span class="hljs-property">readyState</span>;s&amp;&amp;s!==<span class="hljs-string">&quot;loaded&quot;</span>&amp;&amp;s!==<span class="hljs-string">&quot;complete&quot;</span>||(<span class="hljs-title function_">f</span>(),n.<span class="hljs-property">onload</span>=n.<span class="hljs-property">onreadystatechange</span>=<span class="hljs-literal">null</span>)&#125;,i=d.<span class="hljs-title function_">getElementsByTagName</span>(t)[<span class="hljs-number">0</span>],i.<span class="hljs-property">parentNode</span>.<span class="hljs-title function_">insertBefore</span>(n,i)&#125;)(<span class="hljs-variable language_">window</span>,<span class="hljs-variable language_">document</span>,<span class="hljs-string">&quot;script&quot;</span>,<span class="hljs-string">&quot;[//bat.bing.com/bat.js&quot;</span>,<span class="hljs-string">&quot;uetq](https://bat.bing.com/bat.js%22,%22uetq)&quot;</span>);&lt;/script&gt;<br></code></pre></td></tr></table></figure><h1>付费代码</h1><h2 id="Bing广告后台-创建转化目标："><strong>Bing广告后台-创建转化目标：</strong></h2><p>1.进入conversion- conversion goal页面-选择创建新的conversion事件</p><p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%204.png" alt="image.png"></p><ol><li>Conversion Goal Type<ol><li>对事件进行命名</li><li>选择Goal type为事件</li></ol></li></ol><p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%205.png" alt="image.png"></p><ol><li>Conversion Goal Detail ：I don’t want to use enhaced conversion</li></ol><p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%206.png" alt="image.png"></p><p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%207.png" alt="image.png"></p><h2 id="Shopify安装付费代码">Shopify安装付费代码</h2><p>点击设置-客户时间（customer event）添加付费代码</p><p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%208.png" alt="image.png"></p><p><img src="/2024/10/30/Shopify%20Plus%20&%20Bing%20UET%20Tag%E9%83%A8%E7%BD%B2%203751bf9c3fc84d4c9cfaa091e0cff213/image%209.png" alt="image.png"></p><p>*注意替换tag id</p><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs jsx">(<span class="hljs-keyword">function</span>(<span class="hljs-params">w,d,t,r,u</span>)&#123;<span class="hljs-keyword">var</span> f,n,i;w[u]=w[u]||[],f=<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)&#123;<span class="hljs-keyword">var</span> o=&#123;<span class="hljs-attr">ti</span>:<span class="hljs-string">&quot;tag id&quot;</span>, <span class="hljs-attr">enableAutoSpaTracking</span>: <span class="hljs-literal">true</span>&#125;;o.<span class="hljs-property">q</span>=w[u],w[u]=<span class="hljs-keyword">new</span> <span class="hljs-title function_">UET</span>(o),w[u].<span class="hljs-title function_">push</span>(<span class="hljs-string">&quot;pageLoad&quot;</span>)&#125;,n=d.<span class="hljs-title function_">createElement</span>(t),n.<span class="hljs-property">src</span>=r,n.<span class="hljs-property">async</span>=<span class="hljs-number">1</span>,n.<span class="hljs-property">onload</span>=n.<span class="hljs-property">onreadystatechange</span>=<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)&#123;<span class="hljs-keyword">var</span> s=<span class="hljs-variable language_">this</span>.<span class="hljs-property">readyState</span>;s&amp;&amp;s!==<span class="hljs-string">&quot;loaded&quot;</span>&amp;&amp;s!==<span class="hljs-string">&quot;complete&quot;</span>||(<span class="hljs-title function_">f</span>(),n.<span class="hljs-property">onload</span>=n.<span class="hljs-property">onreadystatechange</span>=<span class="hljs-literal">null</span>)&#125;,i=d.<span class="hljs-title function_">getElementsByTagName</span>(t)[<span class="hljs-number">0</span>],i.<span class="hljs-property">parentNode</span>.<span class="hljs-title function_">insertBefore</span>(n,i)&#125;)(<span class="hljs-variable language_">window</span>,<span class="hljs-variable language_">document</span>,<span class="hljs-string">&quot;script&quot;</span>,<span class="hljs-string">&quot;//bat.bing.com/bat.js&quot;</span>,<span class="hljs-string">&quot;uetq&quot;</span>);<br><br>analytics.<span class="hljs-title function_">subscribe</span>(<span class="hljs-string">&quot;checkout_completed&quot;</span>, <span class="hljs-function">(<span class="hljs-params">event</span>) =&gt;</span> &#123;<br>  uetq = uetq || [];<br>  uetq.<span class="hljs-title function_">push</span>(<span class="hljs-string">&#x27;event&#x27;</span>,<span class="hljs-string">&#x27;purchase&#x27;</span>,<br>    &#123;<br>        <span class="hljs-string">&#x27;revenue_value&#x27;</span>: event.<span class="hljs-property">data</span>.<span class="hljs-property">checkout</span>.<span class="hljs-property">totalPrice</span>.<span class="hljs-property">amount</span>,<br>      <span class="hljs-string">&#x27;currency&#x27;</span> : event.<span class="hljs-property">data</span>.<span class="hljs-property">checkout</span>.<span class="hljs-property">currencyCode</span><br>    &#125;);<br>  <br>&#125;);<br></code></pre></td></tr></table></figure><p>点击上方save，然后点击</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>转化追踪&amp;API对接</category>
+      
+      <category>转化追踪</category>
+      
+      <category>代码对接</category>
+      
+      <category>Shopify Plus</category>
+      
+      <category>Bing Ads</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Bing ads</tag>
+      
+      <tag>UET tag</tag>
+      
+      <tag>Event tracking</tag>
+      
+      <tag>Shopify Plus</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Google Ads-入侵网络-广告拒登解决方法</title>
     <link href="/2024/09/21/%E5%85%A5%E4%BE%B5%E7%BD%91%E7%BB%9C-%E5%B9%BF%E5%91%8A%E6%8B%92%E7%99%BB%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%205d93a1b2b6ae431396df8ee7e9375162/"/>
     <url>/2024/09/21/%E5%85%A5%E4%BE%B5%E7%BD%91%E7%BB%9C-%E5%B9%BF%E5%91%8A%E6%8B%92%E7%99%BB%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%205d93a1b2b6ae431396df8ee7e9375162/</url>
@@ -505,9 +612,9 @@
     
     <categories>
       
-      <category>工具网址分享</category>
+      <category>工具分享</category>
       
-      <category>Tools</category>
+      <category>网站分析</category>
       
       <category>SimilarWeb</category>
       
@@ -516,9 +623,9 @@
     
     <tags>
       
-      <tag>Tools</tag>
+      <tag>工具分享</tag>
       
-      <tag>SimilarWeb，竞品分析</tag>
+      <tag>网站分析，SimilarWeb</tag>
       
     </tags>
     
